@@ -1,0 +1,24 @@
+.blue {
+  color: rgb(58, 172, 225);
+}
+
+.orange, .question {
+  color: rgb(240, 98, 59);
+}
+
+.intro {
+  /* photo credit: 
+   * Brett Weinstein
+   * flikr: nrbelexA
+   * https://flic.kr/p/Cbwp4
+   */
+  background-image:url(../img/skyline.jpg);
+}
+
+.logo {
+  width: 450px;
+}
+
+.embed-map {
+  width: 80%;
+}
