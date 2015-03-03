@@ -76,6 +76,7 @@ end
 activate :dotenv, env: 'deploy.env'
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.method   = ENV["DEPLOY_METHOD"]
   deploy.host     = ENV["DEPLOY_HOST"]
   deploy.port     = ENV["DEPLOY_PORT"]
