@@ -5,9 +5,9 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">
+      <% link_to '/index.html', :fragment => 'page-top', :class => 'navbar-brand page-scroll' do %>
         <span class="blue"><i class="fa fa-star"></i> Atlanta</span> <span class="orange">Improv Festival</span>
-      </a>
+      <% end %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,19 +18,19 @@
         <a href="#page-top"></a>
         </li>
         <li>
-        <a class="page-scroll" href="/#about">About</a>
+        <%= link_to 'About', '/index.html', :fragment => 'about', :class => "page-scroll" %>
         </li>
         <li>
-        <a class="page-scroll" href="/#schedule">Schedule</a>
+        <%= link_to 'Schedule', '/index.html', :fragment => 'schedule', :class => "page-scroll" %>
         </li>
         <li>
-        <a class="page-scroll" href="/#workshops">Workshops</a>
+        <%= link_to 'Workshops', '/index.html', :fragment => 'workshops', :class => "page-scroll" %>
         </li>
         <li>
-        <a class="page-scroll" href="/#faqs">FAQs</a>
+        <%= link_to 'FAQs', '/index.html', :fragment => 'faqs', :class => "page-scroll" %>
         </li>
         <li>
-        <a class="page-scroll" href="/#getting-there">Getting There</a>
+        <%= link_to 'Getting There', '/index.html', :fragment => 'getting-there', :class => "page-scroll" %>
         </li>
       </ul>
     </div>

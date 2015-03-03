@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <%= partial "partials/head" %>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <div id="main">
     <%= partial "partials/nav" %>
     <section id="bio" class="container content-section">
         <div class="row">
@@ -20,6 +21,7 @@
     </section>
     <%= yield %>
     <%= partial "partials/footer" %>
+  </div>
     <%= partial "partials/bottom_js" %>
   </body>
 </html>
