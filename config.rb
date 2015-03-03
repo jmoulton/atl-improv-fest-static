@@ -56,7 +56,7 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  #activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
@@ -71,4 +71,15 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+activate :dotenv
+
+activate :deploy do |deploy|
+  deploy.method   = ENV["DEPLOY_METHOD"]
+  deploy.host     = ENV["DEPLOY_HOST"]
+  deploy.port     = ENV["DEPLOY_PORT"]
+  deploy.path     = ENV["DEPLOY_PATH"]
+  deploy.user     = ENV["DEPLOY_USER"]
+  deploy.password = ENV["DEPLOY_PASSWORD"]
 end
