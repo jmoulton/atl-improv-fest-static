@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'thirsty_softregular';
+    src: url('fonts/ThirstySoftRegular-webfont.eot');
+    src: url('fonts/ThirstySoftRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ThirstySoftRegular-webfont.woff2') format('woff2'),
+         url('fonts/ThirstySoftRegular-webfont.woff') format('woff'),
+         url('fonts/ThirstySoftRegular-webfont.ttf') format('truetype'),
+         url('fonts/ThirstySoftRegular-webfont.svg#thirsty_softregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+  font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: rgb(240, 98, 59);
+  text-transform: none;
+  font-size: 45px;
+}
+
+.blue {
+  color: rgb(58, 172, 225);
+}
+
+.orange, .question {
+  color: rgb(240, 98, 59);
+}
+
+.intro {
+  /* photo credit:
+   * Brett Weinstein
+   * flikr: nrbelexA
+   * https://flic.kr/p/Cbwp4
+   */
+  background-image:url(../img/skyline.jpg);
+}
+
+.logo {
+  width: 550px;
+  max-width: 100%;
+}
+
+.embed-map {
+  width: 80%;
+}
+
+.navbar-brand {
+  font-size: 15px;
+}
+@media (min-width: 767px) {
+  .content-section {
+    padding-top:100px;
+  }
+}
+
+footer {
+  border-top: 1px solid rgba(255,255,255,.3);
+}
