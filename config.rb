@@ -73,7 +73,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-activate :dotenv
+activate :dotenv, env: 'deploy.env'
 
 activate :deploy do |deploy|
   deploy.method   = ENV["DEPLOY_METHOD"]
