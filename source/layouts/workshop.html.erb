@@ -10,7 +10,7 @@
               <h1><%= current_page.data.title %></h1>
               <h3>with <%= current_page.data.teacher %></h3>
               <p><em><%= current_page.data.time %> at The Village Theatre</em> - <a href="https://docs.google.com/forms/d/1gNA29na3lmHXONToXxXy_3xj_UYmGG6IPJoJEcAeTrw/viewform?embedded=true" target="_blank">Register Here!</a></p>
-              <% if current_page.data.image %>
+              <% if current_page.data.image && current_page.data.image != "" %>
                 <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/workshops/<%=current_page.data.image %>" title="<%= current_page.data.title %>" alt="<%= current_page.data.title %>"/></div>
               <% end %>
               <%= current_page.data.description %>

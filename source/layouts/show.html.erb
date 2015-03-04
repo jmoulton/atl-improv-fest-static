@@ -9,7 +9,7 @@
             <div class="col-lg-10 col-lg-offset-1">
               <h1><%= current_page.data.title %></h1>
               <p><em><%= current_page.data.time %></em></p>
-              <% if current_page.data.image %>
+              <% if current_page.data.image && current_page.data.image != "" %>
                 <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/shows/<%=current_page.data.image %>" title="<%= current_page.data.title %>" alt="<%= current_page.data.title %>"/></div>
               <% end %>
               <%= current_page.data.bio %>
