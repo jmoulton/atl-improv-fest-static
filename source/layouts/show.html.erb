@@ -8,13 +8,15 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
               <h1><%= current_page.data.title %></h1>
-              <p>
-                <em><%= current_page.data.time %></em><br/>
-                <a href="<%= current_page.data.tix %>"><i class="fa fa-ticket"></i> Buy Tickets</a></strong>
-              </p>
               <% if current_page.data.image && current_page.data.image != "" %>
                 <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/shows/<%=current_page.data.image %>" title="<%= current_page.data.title %>" alt="<%= current_page.data.title %>"/></div>
               <% end %>
+              <p>
+                <em><%= current_page.data.time %></em><br/>
+                <% if current_page.data.tix %>
+                  <a href="<%= current_page.data.tix %>"><i class="fa fa-ticket"></i> Buy Tickets</a></strong>
+                <% end %>
+              </p>
               <%= current_page.data.bio %>
               <p>
                 <% if current_page.data.url %>
