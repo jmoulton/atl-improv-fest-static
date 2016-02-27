@@ -39,7 +39,7 @@ h2 {
    * https://flic.kr/p/DsX4sD
    */
   background-image:url(../img/skyline.jpg);
-  background-position: top;
+  background-position: top center;
   /*background: #FFF;*/
   /*color: rgb(216,35,42);*/
   color: rgb(32, 31, 75);
