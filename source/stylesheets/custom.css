@@ -10,6 +10,9 @@
     font-style: normal;
 }
 
+body {
+  color: #1E244A;
+}
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: rgb(240, 98, 59);
@@ -18,20 +21,35 @@ h2 {
 }
 
 .blue {
-  color: rgb(58, 172, 225);
+  color: rgb(32, 31, 75);
 }
 
 .orange, .question {
   color: rgb(240, 98, 59);
 }
 
+.red {
+  color: rgb(216,35,42);
+}
+
 .intro {
   /* photo credit:
-   * Brett Weinstein
-   * flikr: nrbelexA
-   * https://flic.kr/p/Cbwp4
+   * Shannon McGee
+   * flikr: shan213
+   * https://flic.kr/p/DsX4sD
    */
   background-image:url(../img/skyline.jpg);
+  background-position: top;
+  /*background: #FFF;*/
+  /*color: rgb(216,35,42);*/
+  color: rgb(32, 31, 75);
+}
+
+.intro a {
+  color: rgb(32, 31, 75);
+}
+.intro a:hover {
+  color: rgb(216,35,42);
 }
 
 .logo {
