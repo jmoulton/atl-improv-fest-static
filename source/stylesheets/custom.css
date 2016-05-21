@@ -12,10 +12,12 @@
 
 body {
   color: #1E244A;
+  background-color: rgb(168, 212, 247);
 }
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: rgb(240, 98, 59);
+  color: rgb(216,35,42);
+  /*color: rgb(240, 98, 59);*/
   text-transform: none;
   font-size: 45px;
 }
@@ -25,7 +27,8 @@ h2 {
 }
 
 .orange, .question {
-  color: rgb(240, 98, 59);
+  /*color: rgb(240, 98, 59);*/
+  color: rgb(216,35,42);
 }
 
 .red {
@@ -45,10 +48,10 @@ h2 {
   color: rgb(32, 31, 75);
 }
 
-.intro a {
+.navbar-custom a, a {
   color: rgb(32, 31, 75);
 }
-.intro a:hover {
+a:hover {
   color: rgb(216,35,42);
 }
 
@@ -97,4 +100,10 @@ footer {
   display: inline-block;
   vertical-align: top;
   float: none;
+}
+.top-nav-collapse {
+  background: rgb(168, 212, 247);
+}
+.navbar-custom.top-nav-collapse {
+  border-bottom: 1px solid rgba(32,31,75,0.5);
 }
