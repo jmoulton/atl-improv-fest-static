@@ -5,7 +5,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <% link_to '/index.html', :fragment => 'page-top', :class => 'navbar-brand page-scroll' do %>
+      <% link_to '/', :class => 'navbar-brand page-scroll' do %>
         <span class="blue"><i class="fa fa-star"></i> Atlanta</span> <span class="orange">Improv Festival</span>
       <% end %>
     </div>
@@ -18,23 +18,29 @@
         <a href="#page-top"></a>
         </li>
         <li>
-        <%= link_to 'About', '/index.html', :fragment => 'about', :class => "page-scroll" %>
+        <%= link_to 'About', '/about' %>
         </li>
         <li>
-        <%= link_to 'Schedule', '/index.html', :fragment => 'schedule', :class => "page-scroll" %>
+        <%= link_to 'Shows', '/shows' %>
         </li>
         <li>
-        <%= link_to 'Workshops', '/index.html', :fragment => 'workshops', :class => "page-scroll" %>
+        <%= link_to 'Workshops', '/workshops' %>
         </li>
         <li>
-        <%= link_to 'FAQs', '/index.html', :fragment => 'faqs', :class => "page-scroll" %>
+        <%= link_to 'Cagematch', '/cagematch' %>
         </li>
         <li>
-        <%= link_to 'Getting There', '/index.html', :fragment => 'getting-there', :class => "page-scroll" %>
+        <%= link_to 'FAQs', '/faqs' %>
         </li>
         <li>
-          <a href="http://danger-the-show.xorbia.com/" target="_blank"><i class="fa fa-ticket fa-lg"></i> Tix</a>
+        <%= link_to 'Location', '/location' %>
         </li>
+        <li>
+        <%= link_to 'Sponsors', '/sponsors' %>
+        </li>
+        <!--li>
+          <a href="#"><i class="fa fa-ticket fa-lg"></i> Tix</a>
+        </li-->
       </ul>
     </div>
     <!-- /.navbar-collapse -->

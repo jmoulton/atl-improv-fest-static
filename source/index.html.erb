@@ -1,26 +1,40 @@
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h1><img src="img/logo.png" alt="Atlanta Improv Festival" class="logo img-response"/></h1>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h3>
-                      #<span class="red">ATL</span>IF2016
-                      <a href="https://www.facebook.com/ATLImprovFest"><i class="fa fa-facebook-official"></i></a>
-                      <a href="https://twitter.com/ATLImprovFest"><i class="fa fa-twitter-square"></i></a>
-                      <a href="https://www.instagram.com/atlimprovfest/"><i class="fa fa-instagram"></i></a>
-                      <a href="https://plus.google.com/+Atlantaimprovfestival"><i class="fa fa-google-plus-square"></i></a>
-                      <a href="mailto:questions@atlantaimprovfestival.com"><i class="fa fa-envelope"></i></a>
-                    </h3>
-                    <h3><a href="http://www.nationalimprovnetwork.com/festival-event-profile/?eventkey=349">Submissions are now open! <i class="fa fa-arrow-circle-right"></i></a></h3>
-                  </div>
-                </div>
-            </div>
+---
+layout: "home"
+---
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row main-sponsor">
+        <div class="col-xs-12">
+          <a href="https://www.kaiserpermanente.org/" target="_blank"><img src="images/sponsors/kp.png" alt="Kaiser Permanente" class="logo img-response"/></a>
         </div>
-    </header>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1><img src="img/logo.png" alt="Atlanta Improv Festival" class="logo img-response"/></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>
+            #<span class="red">ATL</span>IF2016
+            <a href="https://www.facebook.com/ATLImprovFest"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://twitter.com/ATLImprovFest"><i class="fa fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/atlimprovfest/"><i class="fa fa-instagram"></i></a>
+            <a href="https://plus.google.com/+Atlantaimprovfestival"><i class="fa fa-google-plus-square"></i></a>
+            <a href="mailto:questions@atlantaimprovfestival.com"><i class="fa fa-envelope"></i></a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
+<%= partial "about/about" %>
+<%= partial "shows/schedule" %>
+<%= partial "workshops/schedule" %>
+<%= partial "cagematch/cagematch" %>
+<%= partial "faqs/faqs" %>
+<%= partial "location/location" %>
+<%= partial "sponsors/sponsors" %>
