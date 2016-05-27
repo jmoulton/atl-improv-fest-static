@@ -5,69 +5,153 @@
       <h2>Shows</h2>
       <p>The Atlanta Improv Festival will be delivering a weekend packed with improv!</p>
       <%#<p class="text-center"><strong><i class="fa fa-ticket fa-2x"></i> <a class="fa-2x" href="http://danger-the-show.xorbia.com/">Tickets available now!</a> <i class="fa fa-ticket fa-2x"></i></strong></p>%>
-    </div>
-      <div class="schedule-column col-xs-12 col-sm-4 text-left">
-        <h3>Thursday</h3>
-        <%#<p><strong><a href="https://www.xorbia.com/e/?DNKFNKJNCNILNLFNCNGEE&referral=http%3A%2F%2Fvillagecomedy%2Ecom%2Fevent%2Fatlanta-improv-festival-2%2F"><i class="fa fa-ticket"></i> Buy Tickets</a></strong></p>%>
-        <p>
-          <strong>8:00pm - 9:00pm</strong><br/>
-          <%= link_to 'The Basement Theatre', '/shows/basement.html' %><br/>
-          <%= link_to 'Highwire Comedy Company', '/shows/highwire.html' %><br/>
-        </p>
-        <p>
-          <strong>9:00pm - 10:00pm</strong><br/>
-          <%= link_to 'Laughing Matters', '/shows/laughing-matters.html' %><br/>
-          <%= link_to 'Automatic Improv', '/shows/automatic-improv.html' %><br/>
-        </p>
-        <p>
-          <strong>10:00pm - 11:00pm</strong><br/>
-          <%= link_to 'Whole World Improv Theatre', '/shows/whole-world.html' %><br/>
-          <%= link_to 'Danger! The Show', '/shows/danger.html' %><br/>
-        </p>
-        <p>
-        <strong>11:00pm - 12:00am</strong><br/>
-          <%= link_to 'All-Star Local Music Jam', '/shows/all-star-music-jam.html' %><br/>
-          <%= link_to 'All-Star Local Jam', '/shows/all-star-jam.html' %><br/>
-        </p>
-      </div>
-      <div class="schedule-column col-xs-12 col-sm-4 text-center">
-        <h3>Friday</h3>
-        <p>
-          <strong>8:00pm - 9:00pm</strong><br/>
-          TBA
-        </p>
-        <p>
-          <strong>9:00pm - 10:00pm</strong><br/>
-          TBA
-        </p>
-        <p>
-          <strong>10:00pm - 11:00pm</strong><br/>
-          <%= link_to 'Archibald, Hill & Howell', '/shows/archibald-hill-howell.html' %><br/>
-        </p>
-        <p>
-        <strong>11:00pm - 12:00am</strong><br/>
-          TBA
-        </p>
-      </div>
-      <div class="schedule-column col-xs-12 col-sm-4 text-right">
-        <h3>Saturday</h3>
-        <p>
-          <strong>8:00pm - 9:00pm</strong><br/>
-          <%= link_to '3Peat', '/shows/3peat.html' %><br/>
-        </p>
-        <p>
-          <strong>9:00pm - 10:00pm</strong><br/>
-          TBA
-        </p>
-        <p>
-          <strong>10:00pm - 11:00pm</strong><br/>
-          <%= link_to 'Quartet', '/shows/quartet.html' %><br/>
-        </p>
-        <p>
-        <strong>11:00pm - 12:00am</strong><br/>
-          TBA
-        </p>
-      </div>
+      <div class="row">
+        <h3 class="text-center">Thursday</h3>
+        <div class="col-xs-6 text-right main-stage-col">
+          <h4>Main Stage</h4>
+
+          <p><strong>8:00pm</strong></p>
+          <p><%= link_to 'The Basement Theatre', '/shows/basement.html' %></p>
+          <p><%= link_to 'Highwire Comedy Company', '/shows/highwire.html' %></p>
+
+          <p><strong>9:00pm</strong></p>
+          <p><%= link_to 'Laughing Matters', '/shows/laughing-matters.html' %></p>
+          <p><%= link_to 'Automatic Improv', '/shows/automatic-improv.html' %></p>
+
+          <p><strong>10:00pm</strong></p>
+          <p><%= link_to 'Whole World Improv Theatre', '/shows/whole-world.html' %></p>
+          <p><%= link_to 'Danger! The Show', '/shows/danger.html' %></p>
+
+          <p><strong>11:00pm</strong></p>
+          <p><%= link_to 'All-Star Local Music Jam', '/shows/all-star-music-jam.html' %></p>
+          <p><%= link_to 'All-Star Local Jam', '/shows/all-star-jam.html' %></p>
+
+        </div>
+        <div class="col-xs-6">
+          <h4>Stage 2</h4>
+
+          <p><strong>7:30pm</strong></p>
+          <p><%= link_to 'Cage Match Team 1', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match Team 2', '/cagematch' %></p>
+
+          <p><strong>8:30pm</strong></p>
+          <p><%= link_to 'Cage Match Team 3', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match Team 4', '/cagematch' %></p>
+
+          <p><strong>9:30pm</strong></p>
+          <p><%= link_to 'Cage Match Team 5', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match Team 6', '/cagematch' %></p>
+
+          <p><strong>10:30pm</strong></p>
+          <p><%= link_to 'Cage Match Team 7', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match Team 8', '/cagematch' %></p>
+
+        </div>
+      </div> <!-- end thursday -->
+
+
+      <div class="row">
+        <h3 class="text-center">Friday</h3>
+        <div class="col-xs-6 text-right main-stage-col">
+          <h4>Main Stage</h4>
+          <p><strong>8:00pm</strong></p>
+          <p><%= link_to 'j/k', '/shows/jk.html' %></p>
+          <p><%= link_to "Dad's Garage", '/shows/dads-garage.html' %></p>
+
+          <p><strong>9:00pm</strong></p>
+          <p><%= link_to 'Village Theatre', '/shows/village-theatre.html' %></p>
+          <p><%= link_to 'McGarnackle', '/shows/mcgarnackle.html' %></p>
+
+          <div class="highlight">
+            <p><strong>10:00pm</strong></p>
+            <p><%= link_to 'Archibald & Hill', '/shows/archibald-hill.html' %></p>
+          </div>
+
+          <p><strong>11:00pm</strong></p>
+          <p><%= link_to 'Butthead', '/shows/butthead.html' %></p>
+          <p><%= link_to 'Midy Zevlin', '/shows/midy-zevlin.html' %></p>
+          </p>
+          <p>
+          <strong>12:00am</strong></p>
+          <p><em>JAM!</em></p>
+          </p>
+        </div>
+        <div class="col-xs-6">
+          <h4>Stage 2</h4>
+          <p><strong>7:30pm</strong></p>
+          <p><%= link_to 'Cage Match (1 or 2 winner)', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match (3 or 4 winner)', '/cagematch' %></p>
+
+          <p><strong>8:30pm</strong></p>
+          <p><%= link_to 'Cage Match (5 or 6 winner)', '/cagematch' %></p>
+          <p><%= link_to 'Cage Match (7 or 8 winner)', '/cagematch' %></p>
+
+          <p><strong>9:30pm</strong></p>
+          <p><em>VIP Show</em></p>
+
+          <p><strong>10:30pm</strong></p>
+          <p><%= link_to 'Amanda + Emily', '/shows/amanda-emily.html' %></p>
+          <p><%= link_to 'Runaways', '/shows/runaways.html' %></p>
+        </div>
+      </div> <!-- end friday -->
+
+      <div class="row">
+        <h3 class="text-center">Saturday</h3>
+        <div class="col-xs-6 text-right main-stage-col saturday">
+          <h4>Main Stage</h4>
+          <div class="highlight">
+            <p><strong>5:30pm</strong></p>
+            <p><em>Q&A with Jack McBrayer</em></p>
+          </div>
+
+          <p><strong>6:30pm</strong></p>
+          <p><%= link_to 'Estesstenials', '/shows/estesstentials.html' %></p>
+          <p><%= link_to 'KISS', '/shows/kiss.html' %></p>
+
+          <p><strong>7:30pm</strong></p>
+          <p><%= link_to 'Midy Zevlin', '/shows/midy-zevlin.html' %></p>
+          <p><%= link_to 'Butthead', '/shows/butthead.html' %></p>
+
+          <p><strong>8:30pm</strong></p>
+          <p><em>Village Theatre Alumni</em></p>
+          <p class="highlight"><%= link_to '3Peat', '/shows/3peat.html' %></p>
+
+          <div class="highlight">
+            <p><strong>9:30pm</strong></p>
+            <p><%= link_to 'Quartet', '/shows/quartet.html' %></p>
+          </div>
+
+          <p><strong>10:30pm</strong></p>
+          <p><%= link_to 'Runaways', '/shows/runaways.html' %></p>
+          <p><%= link_to 'Amanda + Emily', '/shows/amanda-emily.html' %></p>
+
+          <p><strong>11:30am</strong></p>
+          <p><%= link_to 'All-Star Improv A-Hole', '/shows/improv-a-hole.html' %></p>
+        </div>
+
+        <div class="col-xs-6">
+          <h4>Stage 2</h4>
+          <p><strong>6:00pm</strong></p>
+          <p><%= link_to "Let's Try This!", '/shows/lets-try-this.html' %></p>
+          <p><%= link_to 'Chalk Outline', '/shows/chalk-outline.html' %></p>
+
+          <p><strong>7:00pm</strong></p>
+          <p><%= link_to 'j/k', '/shows/jk.html' %></p>
+          <p><%= link_to 'McGarnackle', '/shows/mcgarnackle.html' %></p>
+
+          <div class="highlight">
+            <p><strong>8:00pm</strong></p>
+            <p><%= link_to 'Cage Match Final', '/cagematch' %></p>
+          </div>
+
+          <p><strong>9:00pm</strong></p>
+          <p><em>(closed for repairs)</em></p>
+
+          <p><strong>10:30pm</strong></p>
+          <p><%= link_to 'Action Show', '/shows/action-show.html' %></p>
+          <p><em>Old Man Times</em></p>
+        </div>
+      </div> <!-- end Saturday -->
     </div>
   </div>
 </section>
