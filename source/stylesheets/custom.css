@@ -178,6 +178,6 @@ footer {
 .highlight p {
   font-size: 100%;
 }
-#shows .saturday h4 {
+#shows .saturday h4, #tix h4 {
   margin-bottom: 0px;
 }
