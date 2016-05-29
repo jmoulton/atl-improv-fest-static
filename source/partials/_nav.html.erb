@@ -39,7 +39,9 @@
         <%= link_to 'Sponsors', '/sponsors' %>
         </li>
         <li>
-          <a href="https://www.freshtix.com/events/atlanta-improv-fest"><i class="fa fa-ticket fa-lg"></i> Tix</a>
+          <% link_to '/tickets' do %>
+            <i class="fa fa-ticket fa-lg"></i> Tix
+          <% end %>
         </li>
       </ul>
     </div>
