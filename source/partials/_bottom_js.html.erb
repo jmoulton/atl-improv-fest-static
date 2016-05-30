@@ -1,7 +1,18 @@
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <%= javascript_include_tag 'jquery.easing.min' %>
-
+<%= javascript_include_tag 'bracket/jquery.bracket.min' %>
+<script>
+  function clickBracket(data) {
+    $("#match-info").html("<h4>"+data+"</h4>");
+  }
+  $(function() {
+    $('#bracket').bracket({
+      skipConsolationRound: true,
+      onMatchClick: clickBracket,
+      init: bracket})
+  });
+</script>
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 

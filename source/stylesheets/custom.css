@@ -170,14 +170,29 @@ footer {
 #shows em {
   font-weight: 500;
 }
-.highlight {
+#shows .highlight {
   background-color: rgba(255,255,255,.2);
   padding: 25px;
   font-size: 175%;
 }
-.highlight p {
+#shows .highlight p {
   font-size: 100%;
 }
 #shows .saturday h4, #tix h4 {
   margin-bottom: 0px;
+}
+
+div.jQBracket .team div.label
+{
+  color: rgb(32, 31, 75);
+  font-size: 15px;
+}
+
+@media (min-width: 767px) {
+  .jQBracket.lr {
+    width: 100% !important;
+  }
+  div.jQBracket .team,div.jQBracket .round, div.jQBracket .team div.label {
+    width: 200px;
+  }
 }
