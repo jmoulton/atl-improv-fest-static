@@ -6,12 +6,14 @@
   function clickBracket(data) {
     $("#match-info").html("<h4>"+data+"</h4>");
   }
-  $(function() {
+$(function() {
+  if(typeof bracket != 'undefined') {
     $('#bracket').bracket({
       skipConsolationRound: true,
       onMatchClick: clickBracket,
       init: bracket})
-  });
+  }
+});
 </script>
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
