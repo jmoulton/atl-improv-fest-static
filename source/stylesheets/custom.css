@@ -72,6 +72,16 @@ a {
   max-width: 100%;
 }
 
+.logo-biggest {
+  width: 600px;
+  max-width: 100%;
+}
+
+.logo-cast-member {
+  width: 500px;
+  max-width: 100%;
+}
+
 .logo-medium {
   width: 275px;
   max-width: 100%;
