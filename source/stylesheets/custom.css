@@ -192,6 +192,9 @@ footer {
   margin-bottom: 0px;
 }
 
+#bracket {
+  overflow: overlay;
+}
 div.jQBracket .team div.label
 {
   color: rgb(32, 31, 75);
