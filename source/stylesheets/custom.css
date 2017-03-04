@@ -40,14 +40,12 @@ h2 {
 }
 .intro {
   /* photo credit:
-   * Shannon McGee
-   * flikr: shan213
-   * https://flic.kr/p/DsX4sD
+   * Brett Weinstein 
+   * flikr: nrbelex
+   * https://flic.kr/p/Ch5C3
    */
-  background-image:url(../img/skyline.jpg);
+  background-image:url(../img/skyline2017.jpg);
   background-position: top center;
-  /*background: #FFF;*/
-  /*color: rgb(216,35,42);*/
   color: rgb(32, 31, 75);
 }
 
@@ -58,7 +56,6 @@ h3 a:hover, .navbar-custom a:hover {
   color: rgb(216,35,42);
 }
 a:hover {
-  /*color: rgb(216,35,42);*/
   color: rgb(32, 31, 75);
   text-decoration: underline;
 }
