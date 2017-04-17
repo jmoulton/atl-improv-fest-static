@@ -5,6 +5,11 @@ layout: "home"
 <header class="intro">
   <div class="intro-body">
     <div class="container">
+      <div class="row main-sponsor">
+        <div class="col-xs-12">
+          <a href="http://kp.org/georgia" target="_blank"><img src="images/sponsors/kp.png" alt="Kaiser Permanente" class="logo img-response"/></a>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1><img src="img/logo.png" alt="Atlanta Improv Festival 2017" class="logo img-response"/></h1>
@@ -33,10 +38,8 @@ layout: "home"
 </header>
 
 <%= partial "about/about" %>
-<%#<%= partial "shows/schedule" %>
-<%#<%= partial "workshops/schedule" %>
-<%#<%= partial "cagematch/cagematch" %>
-<%#<%= partial "tickets/tix" %>
-<%#<%= partial "faqs/faqs" %>
-<%#<%= partial "location/location" %>
+<%= partial "shows/schedule" %>
+<%= partial "workshops/schedule" %>
+<%= partial "faqs/faqs" %>
+<%= partial "location/location" %>
 <%#<%= partial "sponsors/sponsors" %>
