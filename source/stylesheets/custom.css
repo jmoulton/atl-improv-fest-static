@@ -12,7 +12,7 @@
 
 body {
   color: #1E244A;
-  background-color: rgb(168, 212, 247);
+  background: #DBDBE5;
 }
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -129,7 +129,7 @@ footer {
   float: none;
 }
 .navbar-custom, .top-nav-collapse {
-  background: rgb(168, 212, 247);
+  background: #DBDBE5;
   padding: 0px;
 }
 .navbar-custom.top-nav-collapse {
