@@ -9,7 +9,13 @@
             <div class="col-lg-10 col-lg-offset-1">
               <h1><%= current_page.data.title %></h1>
               <h3>with <%= current_page.data.teacher %></h3>
-              <p><em><%= current_page.data.time %> at The Village Theatre</em><p>
+              <p><em><%= current_page.data.time %> at 
+                <% if current_page.data.location %>
+                  <a href="https://goo.gl/maps/a72u3YiBu4T2" target="_blank">StriKing Office</a>
+                <% else %>
+                  The Village Theatre
+              <% end %>
+              </em><p>
               <% if false %>
                 <% if current_page.data.sold_out %>
                   <button class="btn btn-lg btn-danger" disabled>Sold out!</button>
