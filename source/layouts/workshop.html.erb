@@ -18,7 +18,7 @@
               </em><p>
               <% if current_page.data.sold_out %>
                 <button class="btn btn-lg btn-danger" disabled>Sold out!</button>
-              <% else %>
+              <% elsif current_page.data.paypal %>
                 <p>
                   <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'>
                     <input type='hidden' name='cmd' value='_s-xclick'>
