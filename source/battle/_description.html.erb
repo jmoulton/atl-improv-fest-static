@@ -8,9 +8,8 @@
           <p>The #ATLIF2017 Battle begins April 27th at <a href="http://villagecomedy.com">The Village Theatre</a> and <a href="http://highwirecomedy.com">Highwire Comedy Company</a> and concludes Saturday May 13th! See 27 improv teams from the city duke it out in head-to-head-to-head improv battles for a chance to win the $1000 grand prize!</p>
           <p>Each Battle show will be one hour in length and consist of three teams each performing a 20-minute set. At the end of each show, the audience will vote for their favorite team. Teams will advance based on a point/ranking system.</p>
           <p>
-            Shows:
             <% data.battle.matches.to_a.group_by{|x| x[1].date}.sort.each do |d| %>
-              <%= link_to Date.parse(d[0]).strftime('%B %e'), "/battle/index.html", fragment: d[0] %>
+              <%= link_to Date.parse(d[0]).strftime('%B %e'), "/battle/index.html", fragment: d[0], class: "battle-date" %>
               <%= " | " if data.battle.matches.to_a.group_by{|x| x[1].date}.sort.to_a.last[0] != d[0] %>
             <% end %>
           </p>

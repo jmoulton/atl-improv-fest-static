@@ -216,3 +216,6 @@ div.jQBracket .team div.label
 .battle-schedule h4 {
   margin-bottom: 0;
 }
+.battle-date {
+  white-space: nowrap;
+}
