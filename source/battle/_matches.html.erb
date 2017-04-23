@@ -1,22 +1,26 @@
-<div class="row">
-  <div class="col-lg-8 col-lg-offset-2 battle-schedule">
-    <%# group by date %>
-    <% data.battle.matches.to_a.group_by{|x| x[1].date}.each do |d| %>
-      <h3><%= Date.parse(d[0]).strftime('%A, %B %e') %></h3>
-      <% d[1].each do |match| %>
-        <h4>Match <%= match[0] %></h4>
-        <p>
-        <% if match[1].teams %>
-            <% match[1].teams.each do |team_id| %>
-              <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 battle-schedule">
+      <%# group by date %>
+      <% data.battle.matches.to_a.group_by{|x| x[1].date}.each do |d| %>
+        <a name="<%= d[0] %>"></a>
+        <h3><%= Date.parse(d[0]).strftime('%A, %B %e') %></h3>
+        <% d[1].each do |match| %>
+          <h4>Match <%= match[0] %><% if match[1].tix %> - <%= link_to "Tickets", match[1].tix %><% end %></h4>
+          <p>
+          <% if match[1].teams %>
+              <% match[1].teams.each do |team_id| %>
+                <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
+              <% end %>
+            <% elsif match[1].upcoming %>
+              <%= match[1].upcoming %>
             <% end %>
-          <% elsif match[1].upcoming %>
-            <%= match[1].upcoming %>
-          <% end %>
-          <br/>
-          <%= match[1].time %> - <%= match[1].location %><% if match[1].tix %> - <%= link_to "Get Tickets!", match[1].tix %><% end %>
-        </p>
+            <br/>
+            <%= match[1].time %> @ <%= match[1].location %>
+          </p>
+        <% end %>
+        <hr/>
       <% end %>
-    <% end %>
+    </div>
   </div>
 </div>
