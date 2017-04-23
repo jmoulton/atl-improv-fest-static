@@ -6,11 +6,15 @@
       <% d[1].each do |match| %>
         <h4>Match <%= match[0] %></h4>
         <p>
-          <% match[1].teams.each do |team_id| %>
-            <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
+        <% if match[1].teams %>
+            <% match[1].teams.each do |team_id| %>
+              <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
+            <% end %>
+          <% elsif match[1].upcoming %>
+            <%= match[1].upcoming %>
           <% end %>
           <br/>
-          <%= match[1].time %> - <%= match[1].location %> - <%= link_to "Get Tickets!", match[1].tix %>
+          <%= match[1].time %> - <%= match[1].location %><% if match[1].tix %> - <%= link_to "Get Tickets!", match[1].tix %><% end %>
         </p>
       <% end %>
     <% end %>
