@@ -11,7 +11,7 @@
             Shows:
             <% data.battle.matches.to_a.group_by{|x| x[1].date}.sort.each do |d| %>
               <%= link_to Date.parse(d[0]).strftime('%B %e'), "/battle/index.html", fragment: d[0] %>
-              <%= " | " if data.battle.matches.to_a.group_by{|x| x[1].date}.to_a.last[0] != d[0] %>
+              <%= " | " if data.battle.matches.to_a.group_by{|x| x[1].date}.sort.to_a.last[0] != d[0] %>
             <% end %>
           </p>
         </div>
