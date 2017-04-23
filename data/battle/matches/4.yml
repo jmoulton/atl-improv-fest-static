@@ -1,6 +1,7 @@
-time: 9:30pm
-location: Highwire Comedy Company
-tix: https://www-highwirecomedy-com.seatengine.com/
+date: "2017-04-27"
+time: "9:30pm"
+location: "Highwire Comedy Company"
+tix: "https://www-highwirecomedy-com.seatengine.com/"
 teams:
   - 10
   - 11

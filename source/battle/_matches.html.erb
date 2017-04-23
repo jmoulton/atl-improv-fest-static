@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 battle-schedule">
+    <%# group by date %>
+    <% data.battle.matches.to_a.group_by{|x| x[1].date}.each do |d| %>
+      <h3><%= Date.parse(d[0]).strftime('%A, %B %e') %></h3>
+      <% d[1].each do |match| %>
+        <h4>Match <%= match[0] %></h4>
+        <p>
+          <% match[1].teams.each do |team_id| %>
+            <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
+          <% end %>
+          <br/>
+          <%= match[1].time %> - <%= match[1].location %> - <%= link_to "Get Tickets!", match[1].tix %>
+        </p>
+      <% end %>
+    <% end %>
+  </div>
+</div>
