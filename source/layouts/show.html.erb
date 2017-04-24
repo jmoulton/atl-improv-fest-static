@@ -8,6 +8,9 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
               <h1><%= current_page.data.title %></h1>
+              <% if current_page.data.location %>
+                <h4><%= current_page.data.location %></h4>
+              <% end %>
               <% if current_page.data.image && current_page.data.image != "" %>
                 <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/shows/<%=current_page.data.image %>" title="<%= current_page.data.title %>" alt="<%= current_page.data.title %>"/></div>
               <% end %>
