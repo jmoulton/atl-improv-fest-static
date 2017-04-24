@@ -4,7 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Atlanta Improv Festival - May 11-13, 2017 - Village Theatre">
-    <meta name="og:image" content="http://atlantaimprovfestival.com/img/logo.png">
+    <% if current_page.data.og_image %>
+      <meta name="og:image" content="<%= image_path current_page.data.og_image %>">
+    <% else %>
+      <meta name="og:image" content="<%=image_path "/img/logo.png" %>">
+    <% end %>
     <meta name="author" content="">
 
     <title><%= "#{current_page.data.title} - " if current_page.data.title %>Atlanta Improv Festival - May 11-13, 2017 - Village Theatre</title>
