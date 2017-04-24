@@ -26,7 +26,7 @@
                   <a href="<%=current_page.data.facebook%>" title="<%=current_page.data.title%>" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a><br/>
                 <% end %>
                 <% if current_page.data.twitter %>
-                  <a href="https://twitter.com/<%=current_page.data.twitter%>" title="<%=current_page.data.twitter%>" target="_blank"><i class="fa fa-twitter"></i> Twitter<br/>
+                  <a href="https://twitter.com/<%=current_page.data.twitter%>" title="<%=current_page.data.twitter%>" target="_blank"><i class="fa fa-twitter"></i> Twitter</a><br/>
                 <% end %>
                 <% if current_page.data.instagram %>
                   <a href="<%=current_page.data.instagram%>" title="<%=current_page.data.instagram%>" target="_blank"><i class="fa fa-instagram"></i> Instagram</a><br/>
@@ -34,8 +34,15 @@
                 <% if current_page.data.youtube %>
                   <a href="<%=current_page.data.youtube%>" title="<%=current_page.data.youtube%>" target="_blank"><i class="fa fa-youtube"></i> YouTube</a><br/>
                 <% end %>
-              </p>
-            </div>
+                </p>
+              </div>
+              <div class="col-lg-10 col-lg-offset-1">
+                <% if current_page.data.bios %>
+                  <% current_page.data.bios.each do |bio| %>
+                    <%= partial "bios/#{bio}" %>
+                  <% end %>
+                <% end %>
+              </div>
         </div>
     </section>
     <%= yield %>
