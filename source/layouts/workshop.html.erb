@@ -35,6 +35,11 @@
               <% if current_page.data.bio %>
                 <%= partial "bios/#{current_page.data.bio}" %>
               <% end %>
+              <% if current_page.data.bios %>
+                <% current_page.data.bios.each do |bio| %>
+                  <%= partial "bios/#{bio}" %>
+                <% end %>
+              <% end %>
             </div>
         </div>
     </section>
