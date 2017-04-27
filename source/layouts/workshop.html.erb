@@ -11,7 +11,9 @@
               <h3>with <%= current_page.data.teacher %></h3>
               <p><em><%= current_page.data.time %> at 
                 <% if current_page.data.location %>
-                  <a href="https://goo.gl/maps/a72u3YiBu4T2" target="_blank">StriKing Office</a>
+                </em>
+                <strong>StriKing Office</strong> - <%= link_to "Directions", "/workshops/striking-directions.pdf"%> - <a href="https://goo.gl/maps/a72u3YiBu4T2" target="_blank">Map</a>
+                <em>
                 <% else %>
                   The Village Theatre
               <% end %>
