@@ -191,6 +191,15 @@ footer {
 #shows .highlight p {
   font-size: 100%;
 }
+
+#ticket-links p {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#ticket-links .highlight {
+  background-color: rgba(255,255,255,.2);
+  font-size: 175%;
+}
 #tix h4 {
   margin-bottom: 0px;
 }

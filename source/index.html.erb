@@ -31,6 +31,17 @@ layout: "home"
 </header>
 
 <%= partial "about/about" %>
+
+<!-- ticket section -->
+<section id="tix" class="content-section">
+  <div class="container">
+    <div class="col-lg-8 col-lg-offset-2">
+      <%= partial "tickets/tix" %>
+      <p style="font-size: 100%"><a href="tickets/index.html">Ticket descriptions and details</a></p>
+    </div>
+  </div>
+</section>
+
 <%= partial "shows/schedule" %>
 <%= partial "workshops/schedule" %>
 <%= partial "battle/description" %>
