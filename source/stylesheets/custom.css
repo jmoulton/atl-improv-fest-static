@@ -89,8 +89,8 @@ a {
 }
 
 .logo-small {
-  width: 150px;
-  max-width: 100%;
+  max-height: 200px;
+  max-width: 200px;
   padding: 5px;
 
 }
