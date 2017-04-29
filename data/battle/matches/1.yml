@@ -2,7 +2,12 @@ date: "2017-04-27"
 time: "8:00pm"
 location: "The Village Theatre"
 tix: "https://www.freshtix.com/events/atlanta-improv-battle-8pm-42717"
+complete: true
 teams:
   - 1
   - 2
   - 27
+results:
+  - 2: 69
+  - 1: 61
+  - 27: 39

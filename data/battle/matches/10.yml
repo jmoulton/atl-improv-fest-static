@@ -3,3 +3,8 @@ time: "8:00pm"
 location: "Highwire Comedy Company"
 tix: "https://www-highwirecomedy-com.seatengine.com/shows/55603"
 upcoming: "Match 1 Winner vs. Match 7 runner-up vs. Match 4 runner-up"
+teams:
+  - 2
+  - 20
+  - 12
+

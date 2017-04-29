@@ -6,3 +6,8 @@ teams:
   - 19
   - 20
   - 21
+complete: true
+results:
+  - 21: 76
+  - 20: 68
+  - 19: 42
