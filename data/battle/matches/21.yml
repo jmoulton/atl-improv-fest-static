@@ -3,3 +3,7 @@ time: "9:40pm"
 location: "The Village Theatre"
 upcoming: "Match 17 winner vs. Match 19 winner vs. #2 team with highest score"
 tix: "https://www.freshtix.com/events/atlanta-improv-battle-940pm-51217"
+teams:
+  - 7
+  - 13
+  - 1

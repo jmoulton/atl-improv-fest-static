@@ -3,7 +3,12 @@ time: "8:30pm"
 location: "The Village Theatre"
 upcoming: "Match 11 winner vs. Match 15 winner vs. Match 13 runner-up"
 tix: "https://www.freshtix.com/events/atlanta-improv-battle-830pm-51117"
+complete: true
 teams:
   - 1
   - 7
   - 4
+results:
+  - 7: 134
+  - 1: 129
+  - 4: 121
