@@ -1,24 +1,22 @@
 ---
-layout: "home"
+layout: "teaser"
 ---
 <!-- Intro Header -->
 <header class="intro">
   <div class="intro-body">
     <div class="container">
-      <div class="row main-sponsor">
-        <div class="col-xs-12">
-          <a href="http://kp.org/georgia" target="_blank"><img src="images/sponsors/kp.png" alt="Kaiser Permanente" class="logo img-response"/></a>
+      <div class="row">
+        <div class="col-sm-8 col-md-offset-2">
+          <h1><img src="img/logo.png" alt="Atlanta Improv Festival 2018" class="logo img-response"/></h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-8 col-md-offset-2">
-          <h1><img src="img/logo.png" alt="Atlanta Improv Festival 2017" class="logo img-response"/></h1>
-        </div>
+        <h2>April 5-7, 2018</h2>
       </div>
       <div class="row">
         <div class="col-sm-12">
           <h3>
-            #<span class="red">ATL</span>IF2017
+            #<span class="red">ATL</span>IF2018
             <a href="https://www.facebook.com/ATLImprovFest"><i class="fa fa-facebook-official"></i></a>
             <a href="https://twitter.com/ATLImprovFest"><i class="fa fa-twitter-square"></i></a>
             <a href="https://www.instagram.com/atlimprovfest/"><i class="fa fa-instagram"></i></a>
@@ -29,22 +27,3 @@ layout: "home"
     </div>
   </div>
 </header>
-
-<%= partial "about/about" %>
-
-<!-- ticket section -->
-<section id="tix" class="content-section">
-  <div class="container">
-    <div class="col-lg-8 col-lg-offset-2">
-      <%= partial "tickets/tix" %>
-      <p style="font-size: 100%"><a href="tickets/index.html">Ticket descriptions and details</a></p>
-    </div>
-  </div>
-</section>
-
-<%= partial "shows/schedule" %>
-<%= partial "workshops/schedule" %>
-<%= partial "battle/description" %>
-<%= partial "faqs/faqs" %>
-<%= partial "location/location" %>
-<%= partial "sponsors/sponsors" %>

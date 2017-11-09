@@ -12,12 +12,12 @@
 
 body {
   color: #1E244A;
-  background: #DBDBE5;
+  background: #E0D9D5;
 }
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: rgb(216,35,42);
-  /*color: rgb(240, 98, 59);*/
+  /*color: rgb(216,35,42);*/
+  color: #DB3832;
   text-transform: none;
   font-size: 45px;
 }
@@ -44,7 +44,8 @@ h2 {
    * flikr: nrbelex
    * https://flic.kr/p/Ch5C3
    */
-  background-image:url(../img/skyline2017.jpg);
+  background-image: none;
+  background-color: #EFECEA;
   background-position: top center;
   color: rgb(32, 31, 75);
   text-shadow: 0px 0px 20px rgba(255,255,255,0.75);
