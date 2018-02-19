@@ -12,7 +12,11 @@
 
 body {
   color: #1E244A;
-  background: #E0D9D5;
+  /*background: #E0D9D5;*/
+  /*background: #FFE0B5;*/
+  background: #FFF3E2;
+  /*background: #EDE580;*/
+  /*background: #A4AF69;*/
 }
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -136,7 +140,11 @@ footer {
   float: none;
 }
 .navbar-custom, .top-nav-collapse {
-  background: #DBDBE5;
+  /*background: #DBDBE5;*/
+  /*background: #EDE580;*/
+  background: #EDE9B8;
+  /*background: #A4AF69;*/
+  /*background: #FFE0B5;*/
   padding: 0px;
 }
 .navbar-custom.top-nav-collapse {
