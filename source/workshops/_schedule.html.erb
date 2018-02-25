@@ -1,35 +1,20 @@
 <!-- workshops Section -->
 <section id="workshops" class="content-section">
   <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>Workshops</h2>
-        <p>The Atlanta Improv Festival weekend isn’t just for watching improv til your eyes melt, but for all improvisers to tone those improv muscles by participating in workshops. We lined up a bunch of useful and fun workshops for the weekend taught by amazing improvisers from all over the country!</p>
-        <p>More workshops will be announced over the next few weeks, so stay tuned!</p>
-      </div>
-      <div class="col-xs-12">
-        <h3 class="text-center">Saturday 10:30am</h3>
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Workshops</h2>
+      <p>The Atlanta Improv Festival weekend isn’t just for watching improv til your eyes melt, but for all improvisers to tone those improv muscles by participating in workshops. We lined up a bunch of useful and fun workshops for the weekend taught by amazing improvisers from all over the country!</p>
+      <p>More workshops will be announced over the next few weeks, so stay tuned!</p>
+    </div>
+    <div class="col-xs-12">
+      <% data.workshops.group_by{|x| x[1]['time']}.sort_by{|x| x[0]}.each do |workshop| %>
+        <h3 class="text-center"><%= workshop[0] %></h3>
         <div class="row">
-          <p class="col-md-3"><%= link_to "Gut & Instinct - Move First, Think Second", "/workshops/jo-scott.html" %><br/><em>with</em> Jo Scott</p>
-          <p class="col-md-3"><%= link_to "Improvising from a Place of Power", "/workshops/christina-boucher.html" %></span><br/><em>with</em> Christina Boucher</p>
-          <p class="col-md-3"><%= link_to "Actions Speak Louder Than Words: Physical Presence and Playfulness", "/workshops/mary-cait-walthall.html" %></span><br/><em>with</em> Mary Cait Walthall</p>
-          <p class="col-md-3"><%= link_to "From Improv to Sketch Show", "/workshops/katie-klein.html" %></span><br/><em>with</em> Katie Klein</p>
+          <% workshop[1].each do |w| %>
+            <p class="col-md-3"><a href="/workshops/<%= w[0] %>/"><%= w[1]["title"] %></a><br/><em>with</em> <%= w[1]["teacher"] %></p>
+          <% end %>
         </div>
-
-        <h3 class="text-center">Saturday 1:00pm</h3>
-        <div class="row">
-          <p class="col-md-3"><%= link_to "Back on the Joy Ride", "/workshops/susan-messing.html" %><br/>with Susan Messing</p>
-          <p class="col-md-3"><%= link_to "Harold Openings with Arch", "/workshops/ryan-archibald.html" %><br/>with Ryan Archibald</p>
-          <p class="col-md-3"><%= link_to "Start Simple, Play Strong, Have Fun with Jason Pardo!", "/workshops/jason-pardo.html" %></span><br/><em>with</em> Jason Pardo</p>
-          <p class="col-md-3"><%= link_to "You Should Put That in a Sketch", "/workshops/sarah-ashley.html" %></span><br/><em>with</em> Sarah Ashley</p>
-        </div>
-
-        <h3 class="text-center">Saturday 3:15pm</h3>
-        <div class="row">
-          <p class="col-md-3"><%= link_to "small big, BIG SMALL", "/workshops/dave-hill.html" %><br/>with Dave Hill <br/>(3:30pm)</p>
-          <p class="col-md-3"><%= link_to "Once More with Feeling", "/workshops/matt-jones.html" %><br/>with Matt Jones</p>
-          <p class="col-md-3"><%= link_to "The World Is Not Flat", "/workshops/nicholas-riggs.html" %><br/><em>with</em> Nicholas Riggs</p>
-          <p class="col-md-3"><%= link_to "Double Bonus Points Sketch Writing", "/workshops/ryan-archibald-sketch.html" %><br/>with Ryan Archibald</p>
-        </div>
+      <% end %>
     </div>
   </div>
 </section>

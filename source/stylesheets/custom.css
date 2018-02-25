@@ -241,3 +241,21 @@ div.jQBracket .team div.label
 ul.banner-social-buttons li {
   display: inline-block;
 }
+
+ul.list {
+  font-size: 20px;
+}
+.bio-headshot {
+  max-width: 500px;
+}
+
+.headshot-index {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+}
+
+#footer {
+  background-color: #EDE9B8;
+  border-top: 1px solid rgba(32,31,75,0.5);
+}

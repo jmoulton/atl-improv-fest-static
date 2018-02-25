@@ -4,7 +4,9 @@
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <%= partial "partials/nav" %>
     <%= yield %>
-    <%= partial "partials/footer" %>
+    <div id="footer">
+      <%= partial "partials/footer" %>
+    </div>
     <%= partial "partials/bottom_js" %>
   </body>
 </html>

@@ -11,7 +11,10 @@
     <% end %>
     <meta name="author" content="">
 
-    <title><%= "#{current_page.data.title} - " if current_page.data.title %>Atlanta Improv Festival - April 5-7, 2018 - Village Theatre</title>
+    <title><% if current_page.data.title %><%= "#{current_page.data.title} - "%><% end %>
+           <% if current_page.metadata[:locals][:workshop] %><%= "#{current_page.metadata[:locals][:workshop][:title]} - "  %><% end %>
+           <% if current_page.metadata[:locals][:bio] %><%= "#{current_page.metadata[:locals][:bio][:name]} - "  %><% end %>
+         Atlanta Improv Festival - April 5-7, 2018 - Village Theatre</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">

@@ -27,15 +27,15 @@
             </li>
             <li>
             <%= link_to 'Shows', '/index.html', :fragment => 'shows', :class => "page-scroll" %>
-            </li>
-            <li>
-            <%= link_to 'Workshops', '/index.html', :fragment => 'workshops', :class => "page-scroll" %>
             </li>-->
             <li>
             <%= link_to 'Battle', 'battle/index.html'%>
             </li>
             <li>
             <%= link_to 'FAQs', '/index.html', :fragment => 'faqs', :class => "page-scroll" %>
+            </li>
+            <li>
+            <%= link_to 'Workshops', '/index.html', :fragment => 'workshops', :class => "page-scroll" %>
             </li>
             <li>
             <%= link_to 'Location', '/index.html', :fragment => 'location', :class => "page-scroll" %>
@@ -56,7 +56,9 @@
     <!-- /.container -->
     </nav>
     <%= yield %>
-    <%= partial "partials/footer" %>
+    <div id="footer">
+      <%= partial "partials/footer" %>
+    </div>
     <%= partial "partials/bottom_js" %>
   </body>
 </html>
