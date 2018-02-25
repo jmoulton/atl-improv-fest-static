@@ -36,7 +36,7 @@ layout: "layout"
         <% end %>
         <% if workshop.bios %>
           <% workshop.bios.each do |bio| %>
-            <%= render "bios/#{bio}" %>
+            <%= partial "bios/bio", locals: {bio: data.bios[bio]} %>
           <% end %>
         <% end %>
     </div>
