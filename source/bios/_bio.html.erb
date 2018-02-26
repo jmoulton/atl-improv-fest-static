@@ -1,6 +1,6 @@
 <h2><%= bio.name %></h2>
 <% if bio.headshot %>
-  <img class="img-responsive center-block" src="/images/bios/<%= bio.headshot %>" title="<%= bio.name %>" alt="<%= bio.name %>"/>
+  <img class="img-responsive pull-right bio-headshot" src="/images/bios/<%= bio.headshot %>" title="<%= bio.name %>" alt="<%= bio.name %>"/>
 <% end %>
 <%= markdown(bio.bio) %>
 <% if bio.workshops %>

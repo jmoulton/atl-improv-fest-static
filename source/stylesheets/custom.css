@@ -245,3 +245,6 @@ ul.banner-social-buttons li {
 ul.list {
   font-size: 20px;
 }
+.bio-headshot {
+  max-width: 500px;
+}
