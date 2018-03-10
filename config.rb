@@ -35,6 +35,10 @@ data.workshops.each do |workshop|
   proxy "/workshops/#{workshop[0]}/index.html", "/workshops/template.html", locals: { workshop: workshop[1] }, :ignore => true
 end
 
+data.battle.teams.each do |team|
+  proxy "/battle/teams/#{team[0]}/index.html", "/battle/teams/template.html", locals: { id: team[0], team: team[1] }, :ignore => true
+end
+
 ###
 # Helpers
 ###

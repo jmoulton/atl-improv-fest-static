@@ -1,0 +1,24 @@
+---
+layout: "layout"
+---
+<section id="teams" class="container content-section">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h1><%= team.name %></h1>
+      <% if team.bio %>
+        <p><%= team.bio %></p>
+      <% end %>
+      <% if team.cast %>
+        <p>Featuring: <em><%= team.cast %></em></p>
+      <% end %>
+      <h3>Battles:</h3>
+      <span class="battle-schedule">
+        <% data.battle.matches.to_a.each do |match| %>
+          <% if match[1]['teams'].include?(id) %>
+            <%= partial "battle/match", locals: { match: match, date_inline: true } %>
+          <% end %>
+        <% end %>
+      </span>
+    </div>
+  </div>
+</section>

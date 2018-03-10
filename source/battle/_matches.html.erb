@@ -1,48 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 battle-schedule">
-      <%# group by date %>
       <% data.battle.matches.to_a.sort_by{|x| x[0]}.group_by{|x| x[1].date}.each do |d| %>
-        <a name="<%= d[0] %>"></a>
-        <h3><%= Date.parse(d[0]).strftime('%A, %B %e') %></h3>
+        <%= partial "date-heading", locals: { date: d[0] } %>
         <% d[1].each do |match| %>
-          <h4><% if match[1].tix && !match[1].complete %><%= link_to "Tickets", match[1].tix %><% end %></h4>
-
-          <p>
-          <%# matches with teams assigned %>
-          <% if match[1].complete %>
-            <% match[1].results.each_with_index do |team, idx| %>
-              <% if idx == 0 %>
-                <strong>Winner:</strong>
-              <% elsif idx == 1 %>
-                <em>Runner Up:</em>
-              <% end %>
-              <%= data.battle.teams["#{team.first[0]}"].name %> - <%= team.first[1] %> pts.
-
-              <br/>
-            <% end %>
-
-          <% else %>
-            <% if match[1].teams %>
-              <% match[1].teams.each do |team_id| %>
-                <strong><%= data.battle.teams["#{team_id}"].name %></strong> <%= "vs." if team_id != match[1].teams.last %>
-            <% end %>
-            <% if match[1].additional_teams %>
-              <% match[1].additional_teams.each do |team| %>
-                vs. <%= team %>
-              <% end %>
-            <% end %>
-
-              <%# upcoming matches that aren't filled in yet %>
-              <% elsif match[1].upcoming %>
-                <%= match[1].upcoming %>
-              <% end %>
-
-              <br/>
-              <%= match[1].time %> @ <%= match[1].location %>
-            <% end %>
-
-          </p>
+          <%= partial "match", locals: { match: match } %>
         <% end %>
         <hr/>
       <% end %>
