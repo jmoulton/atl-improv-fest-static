@@ -14,7 +14,7 @@ layout: "layout"
       <h3>Battles:</h3>
       <span class="battle-schedule">
         <% data.battle.matches.to_a.each do |match| %>
-          <% if match[1]['teams'].include?(id) %>
+          <% if match[1]['teams'] && match[1]['teams'].include?(id) %>
             <%= partial "battle/match", locals: { match: match, date_inline: true } %>
           <% end %>
         <% end %>
