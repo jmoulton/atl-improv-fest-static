@@ -33,7 +33,7 @@ layout: "layout"
         <%= markdown(workshop.description) %>
         <% if workshop.bios %>
           <% workshop.bios.each do |bio| %>
-            <%= partial "bios/bio", locals: {bio: data.bios[bio]} %>
+            <%= partial "bios/bio", locals: {bio: data.bios[bio], show_workshops: false} %>
           <% end %>
         <% end %>
     </div>

@@ -1,0 +1,62 @@
+thursday:
+  - stage: Main Stage
+    slots:
+      - time: 08:00pm
+      - time: 09:00pm
+      - time: 10:00pm
+        text: _TBA_
+      - time: 11:00pm
+        text: "*PARTY* - Karoke with Allen"
+  - stage: Black Box
+    slots:
+      - time: 07:30pm
+        text: "[Battle - Match 16](/battle/#2018-04-05)"
+      - time: 08:45pm
+        text: "[Battle - Match 17](/battle#2018-04-05)"
+      - time: 10:00pm
+        text: "[Battle - Match 18](/battle#2018-04-05)"
+      - time: 11:05pm
+        text: "[Battle - Match 19](/battle#2018-04-05)"
+
+friday:
+  - stage: Main Stage
+    slots:
+      - time: 07:00pm
+      - time: 08:00pm
+      - time: 09:00pm
+      - time: 10:00pm
+        text: _TBA_
+      - time: 11:00pm
+        text: "_Search Engine_ hosts *ALL-STAR JAM*"
+
+  - stage: Black Box
+    slots:
+      - time: 07:30pm
+      - time: 08:30pm
+        text: "[Battle - Match 20](/battle/#2018-04-06)"
+      - time: 09:45pm
+        text: "[Battle - Match 21](/battle/#2018-04-06)"
+      - time: 11:00pm
+        text: |
+          Individual Out Teams
+
+          Andel and Arch
+
+saturday:
+  - stage: Main Stage
+    slots:
+      - time: 06:00pm
+      - time: 07:00pm
+      - time: 08:00pm
+      - time: 09:00pm
+      - time: 10:00pm
+      - time: 11:00pm
+  - stage: Black Box
+    slots:
+      - time: 05:30pm
+        text: _IMPROV CAMP_ - Town Hall
+      - time: 06:30pm
+      - time: 07:30pm
+      - time: 08:30pm
+      - time: 09:30pm
+      - time: 10:45pm

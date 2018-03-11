@@ -39,6 +39,10 @@ data.battle.teams.each do |team|
   proxy "/battle/teams/#{team[0]}/index.html", "/battle/teams/template.html", locals: { id: team[0], team: team[1] }, :ignore => true
 end
 
+data.shows.each do |show|
+  proxy "/shows/#{show[0]}/index.html", "/shows/template.html", locals: { id: show[0], show: show[1] }, :ignore => true
+end
+
 ###
 # Helpers
 ###
@@ -53,10 +57,14 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  # monkey patch
+  require "lib/enumerable"
+
   def markdown(text)
     Tilt['markdown'].new { text }.render
   end
 end
+#helpers Enumerable
 
 set :css_dir, 'stylesheets'
 
