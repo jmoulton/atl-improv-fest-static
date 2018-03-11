@@ -1,0 +1,20 @@
+title: "3Peat"
+location: "Chicago, IL"
+bio: |
+  The show begins with a suggestion or personal question from the audience. A cast member will perform a monologue inspired by that suggestion. Then the rest of the cast then uses that monologue to do fast paced and hilarious long form improv piece.
+
+  3Peat recently won best non-Harold team at the Del Awards at iO Chicago (in a vote by performers, students, and crew).
+
+image: "3peat.jpg"
+facebook: "https://www.facebook.com/3Peat-123106297853431/"
+url: "http://ioimprov.com/chicago/shows/3peat/"
+
+cast:
+  - nnamdi-ngwe
+  - patrick-rowland
+  - shantira-jackson
+
+showtimes:
+  - day: Friday
+    time: 10:00pm
+    stage: main
