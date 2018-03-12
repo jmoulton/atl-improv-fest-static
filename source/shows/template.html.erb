@@ -11,18 +11,20 @@ layout: "layout"
       <% if show.location %>
         <h4><%= show.location %></h4>
       <% end %>
-      <p>
-      <em><%= show.time %></em><br/>
-      <% if show.day %>
-        <%= partial "tickets/#{show.day}" %>
+      <% show.showtimes.each do |showtime| %>
+        <p>
+          <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em>
+        </p>
       <% end %>
-      <% if show.days %>
-        <% show.days.each do |day| %>
-          <%= partial "tickets/#{day}" %>
-        <% end %>
+      <%= markdown(show.bio) %>
+      <% if show.cast %>
+        <h4>Cast</h4>
+        <p>
+          <% show.cast.each do |bio| %>
+            <a href="/bios/<%= bio %>"><%= data.bios[bio].name %></a><br/>
+          <% end %>
+        </p>
       <% end %>
-      </p>
-      <%= show.bio %>
       <p>
       <% if show.url %>
         <a href="<%=show.url%>" title="<%=show.title%>" target="_blank"><i class="fa fa-globe"></i> <%=show.title%></a><br/>
@@ -40,13 +42,6 @@ layout: "layout"
         <a href="<%=show.youtube%>" title="<%=show.youtube%>" target="_blank"><i class="fa fa-youtube"></i> YouTube</a><br/>
       <% end %>
       </p>
-    </div>
-    <div class="col-lg-10 col-lg-offset-1">
-      <% if show.bios %>
-        <% show.bios.each do |bio| %>
-          <%= partial "bios/#{bio}" %>
-        <% end %>
-      <% end %>
     </div>
   </div>
 </section>

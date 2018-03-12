@@ -17,4 +17,7 @@ cast:
 showtimes:
   - day: Friday
     time: 10:00pm
-    stage: main
+    stage: Main Stage
+  - day: Saturday
+    time: 9:00pm
+    stage: Main Stage

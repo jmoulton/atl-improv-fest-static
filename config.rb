@@ -60,6 +60,7 @@ helpers do
   def markdown(text)
     Tilt['markdown'].new { text }.render
   end
+
 end
 
 set :css_dir, 'stylesheets'
@@ -98,4 +99,18 @@ activate :deploy do |deploy|
   deploy.path     = ENV["DEPLOY_PATH"]
   deploy.user     = ENV["DEPLOY_USER"]
   deploy.password = ENV["DEPLOY_PASSWORD"]
+end
+
+module Array
+
+  def group_by_recursive(*props)
+    groups = group_by(&props.first)
+    if props.count == 1
+      groups
+    else
+      groups.merge(groups) do |group, elements|
+        elements.group_by_recursive(*props.drop(1))
+      end
+    end
+  end
 end

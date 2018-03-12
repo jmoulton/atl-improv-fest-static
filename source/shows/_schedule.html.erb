@@ -3,8 +3,11 @@
   <div class="container">
     <div class="col-lg-8 col-lg-offset-2">
       <h2>Shows</h2>
-      <p>The Atlanta Improv Festival will be delivering a weekend packed with improv! <%= link_to "Tickets available now!", "/tickets/index.html" %></p>
+      <p>The Atlanta Improv Festival will be delivering a weekend packed with improv! <%#= link_to "Tickets available now!", "/tickets/index.html" %></p>
       <div class="row">
+        <% data.shows.to_a.group_by_enumerable{|x| x[1].date}.each do |d| %>
+          <%= d %> <br/>
+        <% end %>
         <h3 class="text-center">Thursday</h3>
         <div class="col-xs-6 text-right main-stage-col">
           <h4>Main Stage</h4>
