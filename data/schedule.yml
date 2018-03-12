@@ -1,31 +1,53 @@
 thursday:
-  main-stage:
-    8:00pm:
-      - rufio
-      - 3peat
-    9:00pm:
-      - 3peat
-      - rufio
-  blackbox:
-    7:30pm:
-      - 3peat
-    8:30pm:
-      - rufio
-      - 3peat
+  - stage: Main Stage
+    slots:
+      - time: 08:00pm
+        shows:
+          - rufio
+          - 3peat
+      - time: 09:00pm
+        shows:
+          - rufio
+          - 3peat
+  - stage: Black Box
+    slots:
+      - time: 07:30pm
+        shows:
+          - rufio
+          - 3peat
 
 friday:
-  main-stage:
-    8:00pm:
-      - rufio
-      - 3peat
-  blackbox:
-    7:00pm:
-      - 3peat
+  - stage: Main Stage
+    slots:
+      - time: 07:00pm
+        shows:
+          - rufio
+          - 3peat
+      - time: 09:00pm
+        shows:
+          - rufio
+          - 3peat
+  - stage: Black Box
+    slots:
+      - time: 07:30pm
+        shows:
+          - rufio
+          - 3peat
 
 saturday:
-  main-stage:
-    8:00pm:
-      - rufio
-  blackbox:
-    9:30pm:
-      - 3peat
+  - stage: Main Stage
+    slots:
+      - time: 08:00pm
+        shows:
+          - rufio
+          - 3peat
+      - time: 10:00pm
+        shows:
+          - rufio
+          - 3peat
+  - stage: Black Box
+    slots:
+      - time: 07:30pm
+        shows:
+          - rufio
+          - 3peat
