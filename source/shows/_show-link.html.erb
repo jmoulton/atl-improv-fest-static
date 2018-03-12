@@ -1,0 +1,4 @@
+<p><strong><%= show[0] %></strong></p>
+<% show[1].each do |team| %>
+  <p><a href="/shows/<%= team %>"><%= data.shows[team].title %></a></p>
+<% end %>
