@@ -11,6 +11,7 @@ gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-dotenv', '~> 1.0'
 gem 'middleman-bower'
 
+
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
@@ -18,3 +19,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'tilt'
+gem 'vine'

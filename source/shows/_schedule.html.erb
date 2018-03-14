@@ -13,9 +13,11 @@
             <div class="col-xs-6 <% if(index == 0)%>text-right main-stage-col<% end %>">
               <h4><%= stage["stage"] %></h4>
               <% stage["slots"].each do |slot| %>
-                <p><strong><% if slot['time'].start_with? "0" %><%= slot['time'].slice(1, 6) %><% else %><%= slot["time"] %><% end %></strong></p>
-                <% slot["shows"].each do |show| %>
-                  <p><a href="/shows/<%= show %>"><%= data.shows[show].title %></a></p>
+                <p><strong><% if slot.start_with? "0" %><%= slot.slice(1, 6) %><% else %><%= slot %><% end %></strong></p>
+                <% data.shows.each do |k,v| %>
+                  <% if v['showtimes'].any?{|showtime| showtime == {"day" => day[0].capitalize, "time" => slot, "stage" => stage['stage'] }} %>
+                    <p><a href="/shows/<%= k %>/"><%= v["title"] %></a></p>
+                  <% end %>
                 <% end %>
               <% end %>
             </div>
@@ -28,9 +30,6 @@
 <section id="shows-linear" class="content-section">
   <div class="container">
     <div class="col-lg-8 col-lg-offset-2">
-      <% data.schedule.map{|x| x[1].map{|y| y['slots']}}.flatten.sort_by{|x| x['time']}.group_by{|x| x['time']}.each do |show| %>
-        <%= show %><br/>
-      <% end %>
 
     </div>
   </div>

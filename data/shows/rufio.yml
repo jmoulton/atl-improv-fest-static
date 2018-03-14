@@ -8,6 +8,12 @@ facebook: "https://www.facebook.com/RufioImprovComedy/"
 instagram: "https://www.instagram.com/rufioisinyourphone/"
 url: "http://www.rufioimprov.com/"
 showtimes:
-  - day: Friday
-    time: 8:30pm
+  - day: Thursday
+    time: 10:30pm
     stage: Black Box
+  - day: Friday
+    time: 08:30pm
+    stage: Black Box
+  - day: Saturday
+    time: 10:00pm
+    stage: Main Stage

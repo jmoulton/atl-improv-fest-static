@@ -1,53 +1,46 @@
 thursday:
   - stage: Main Stage
     slots:
-      - time: 08:00pm
-        shows:
-          - rufio
-          - 3peat
-      - time: 09:00pm
-        shows:
-          - rufio
-          - 3peat
+      - 08:00pm
+      - 09:00pm
+      - 10:00pm
+      - 11:00pm
   - stage: Black Box
     slots:
-      - time: 07:30pm
-        shows:
-          - rufio
-          - 3peat
+      - 08:30pm
+      - 09:30pm
+      - 10:30pm
+      - 11:30pm
 
 friday:
   - stage: Main Stage
     slots:
-      - time: 07:00pm
-        shows:
-          - rufio
-          - 3peat
-      - time: 09:00pm
-        shows:
-          - rufio
-          - 3peat
+      - 07:00pm
+      - 08:00pm
+      - 09:00pm
+      - 10:00pm
+      - 11:00pm
   - stage: Black Box
     slots:
-      - time: 07:30pm
-        shows:
-          - rufio
-          - 3peat
+      - 07:30pm
+      - 08:30pm
+      - 09:30pm
+      - 10:30pm
+      - 11:30pm
 
 saturday:
   - stage: Main Stage
     slots:
-      - time: 08:00pm
-        shows:
-          - rufio
-          - 3peat
-      - time: 10:00pm
-        shows:
-          - rufio
-          - 3peat
+      - 07:00pm
+      - 08:00pm
+      - 09:00pm
+      - 10:00pm
+      - 11:00pm
+      - 12:00am
   - stage: Black Box
     slots:
-      - time: 07:30pm
-        shows:
-          - rufio
-          - 3peat
+      - 07:30pm
+      - 08:30pm
+      - 09:30pm
+      - 10:30pm
+      - 11:30pm

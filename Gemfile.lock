@@ -137,6 +137,7 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    vine (0.4)
 
 PLATFORMS
   ruby
@@ -150,6 +151,7 @@ DEPENDENCIES
   middleman-minify-html
   tilt
   tzinfo-data
+  vine
   wdm (~> 0.1.0)
 
 BUNDLED WITH
