@@ -15,9 +15,6 @@ cast:
   - shantira-jackson
 
 showtimes:
-  - day: Friday
-    time: 08:30pm
-    stage: Black Box
   - day: Saturday
     time: 09:00pm
     stage: Main Stage

@@ -25,7 +25,7 @@ friday:
       - time: 08:00pm
       - time: 09:00pm
       - time: 10:00pm
-        text: Individual Out Team !!
+        text: _TBA_
       - time: 11:00pm
         text: "_Search Engine_ hosts *ALL-STAR JAM*"
 
@@ -45,5 +45,18 @@ friday:
 saturday:
   - stage: Main Stage
     slots:
+      - time: 06:00pm
+      - time: 07:00pm
+      - time: 08:00pm
+      - time: 09:00pm
+      - time: 10:00pm
+      - time: 11:00pm
   - stage: Black Box
     slots:
+      - time: 05:30pm
+        text: _IMPROV CAMP_ - Town Hall
+      - time: 06:30pm
+      - time: 07:30pm
+      - time: 08:30pm
+      - time: 09:30pm
+      - time: 10:45pm
