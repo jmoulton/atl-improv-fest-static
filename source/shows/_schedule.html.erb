@@ -12,11 +12,14 @@
           <% day[1].each_with_index do |stage, index| %>
             <div class="col-xs-6 <% if(index == 0)%>text-right main-stage-col<% end %>">
               <h4><%= stage["stage"] %></h4>
-              <% stage["slots"].each do |slot| %>
-                <p><strong><% if slot.start_with? "0" %><%= slot.slice(1, 6) %><% else %><%= slot %><% end %></strong></p>
-                <% data.shows.each do |k,v| %>
-                  <% if v['showtimes'].any?{|showtime| showtime == {"day" => day[0].capitalize, "time" => slot, "stage" => stage['stage'] }} %>
-                    <p><a href="/shows/<%= k %>/"><%= v["title"] %></a></p>
+              <% if stage['slots'] %>
+                <% stage["slots"].each do |slot| %>
+                  <p><strong><% if slot['time'].start_with? "0" %><%= slot['time'].slice(1, 6) %><% else %><%= slot['time'] %><% end %></strong></p>
+                  <%= markdown(slot['text']) if slot['text'] %>
+                  <% data.shows.each do |k,v| %>
+                    <% if v['showtimes'].any?{|showtime| showtime == {"day" => day[0].capitalize, "time" => slot['time'], "stage" => stage['stage'] }} %>
+                      <p><a href="/shows/<%= k %>/"><%= v["title"] %></a></p>
+                    <% end %>
                   <% end %>
                 <% end %>
               <% end %>
