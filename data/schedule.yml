@@ -24,8 +24,8 @@ friday:
       - time: 07:00pm
       - time: 08:00pm
       - time: 09:00pm
-      - time: 10:00pm
         text: _TBA_
+      - time: 10:00pm
       - time: 11:00pm
         text: "_Search Engine_ hosts *ALL-STAR JAM*"
 
@@ -55,7 +55,7 @@ saturday:
       - time: 09:00pm
         text: Search Engine
       - time: 10:00pm
-        text: _TBA_
+        text: St.Clair & Morris
       - time: 11:00pm
         text: AIF Championships
   - stage: Black Box
