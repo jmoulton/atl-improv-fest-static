@@ -4,12 +4,13 @@ layout: "layout"
 <section id="show" class="container content-section">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
+      <p class="breadcrumbs"><a href="/shows/">Shows</a></p>
       <h1><%= show.title %></h1>
-      <% if show.image && show.image != "" %>
-        <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive" src="/images/shows/<%=show.image %>" title="<%= show.title %>" alt="<%= show.title %>"/></div>
-      <% end %>
       <% if show.location %>
         <h4><%= show.location %></h4>
+      <% end %>
+      <% if show.image && show.image != "" %>
+        <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive show-img" src="/images/shows/<%=show.image %>" title="<%= show.title %>" alt="<%= show.title %>"/></div>
       <% end %>
       <% show.showtimes.each do |showtime| %>
         <p>

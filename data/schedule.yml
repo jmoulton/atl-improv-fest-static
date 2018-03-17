@@ -48,9 +48,16 @@ saturday:
       - time: 06:00pm
       - time: 07:00pm
       - time: 08:00pm
+        text: |
+          VT Alumni
+
+          Dave Hill & Friends
       - time: 09:00pm
+        text: Search Engine
       - time: 10:00pm
+        text: _TBA_
       - time: 11:00pm
+        text: AIF Championships
   - stage: Black Box
     slots:
       - time: 05:30pm
@@ -60,3 +67,4 @@ saturday:
       - time: 08:30pm
       - time: 09:30pm
       - time: 10:45pm
+        text: _TBA_
