@@ -6,3 +6,8 @@ teams:
   - legend
   - were-men
   - js-on-my-feet
+complete: true
+results:
+  - legend: 16
+  - js-on-my-feet: 14
+  - were-men: 5

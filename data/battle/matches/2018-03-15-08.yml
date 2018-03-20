@@ -6,3 +6,8 @@ teams:
   - underdogs
   - unprepared
   - the-rebound-show
+complete: true
+results:
+  - unprepared: 121
+  - underdogs: 102
+  - the-rebound-show: 89

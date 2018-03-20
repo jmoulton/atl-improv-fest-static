@@ -6,3 +6,8 @@ teams:
   - slice-of-life
   - salieri-for-no-reason
   - six-kids-in-a-trenchcoat
+complete: true
+results:
+  - slice-of-life: 87
+  - six-kids-in-a-trenchcoat: 85
+  - salieri-for-no-reason: 68

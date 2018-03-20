@@ -6,3 +6,8 @@ teams:
   - dance-party
   - cardigan-party
   - behind-the-scenes
+complete: true
+results:
+  - behind-the-scenes: 60
+  - dance-party: 53
+  - cardigan-party: 37

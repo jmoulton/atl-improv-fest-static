@@ -14,7 +14,7 @@
     <% elsif idx == 1 %>
       <em>Runner Up:</em>
     <% end %>
-    <%= data.battle.teams["#{team.first[0]}"].name %> - <%= team.first[1] %> pts.
+    <a href="/battle/teams/<%= team.first[0] %>/"><%= data.battle.teams["#{team.first[0]}"].name %></a> - <%= team.first[1] %> pts.
 
     <br/>
   <% end %>

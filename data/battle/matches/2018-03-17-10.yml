@@ -6,3 +6,8 @@ teams:
   - group-therapy
   - roadside-assistance
   - the-jonestown-players
+complete: true
+results:
+  - group-therapy: 83
+  - roadside-assistance: 51
+  - the-jonestown-players: 46

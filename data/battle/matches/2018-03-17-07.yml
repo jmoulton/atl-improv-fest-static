@@ -6,3 +6,8 @@ teams:
   - gamey-bullshit
   - poker-night
   - jabberwocky
+complete: true
+results:
+  - gamey-bullshit: 88
+  - poker-night: 66
+  - jabberwocky: 44

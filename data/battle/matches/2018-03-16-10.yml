@@ -6,3 +6,8 @@ teams:
   - queeriety
   - the-pop-cultists
   - prior-engagements
+complete: true
+results:
+  - queeriety: 102
+  - the-pop-cultists: 70
+  - prior-engagements: 62

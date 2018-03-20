@@ -6,3 +6,8 @@ teams:
   - overly-dramatic-crescendo
   - scotch-and-tonic
   - two-worms
+complete: true
+results:
+  - overly-dramatic-crescendo: 24
+  - two-worms: 18
+  - scotch-and-tonic: 12

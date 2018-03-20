@@ -6,3 +6,8 @@ teams:
   - big-poppa
   - co-workers
   - other-peoples-parents
+complete: true
+results:
+  - co-workers: 29
+  - big-poppa: 24
+  - other-peoples-parents: 19
