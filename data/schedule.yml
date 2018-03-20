@@ -38,7 +38,7 @@ friday:
         text: "[Battle - Match 21](/battle/#2018-04-06)"
       - time: 11:00pm
         text: |
-          Individual Out Teams
+          Individual Actor Mashup
 
           Andel and Arch
 
@@ -57,7 +57,7 @@ saturday:
       - time: 10:00pm
         text: _TBA_
       - time: 11:00pm
-        text: AIF Championships
+        text: 2018 ATLIF Battle Finals
   - stage: Black Box
     slots:
       - time: 05:30pm
@@ -66,5 +66,3 @@ saturday:
       - time: 07:30pm
       - time: 08:30pm
       - time: 09:30pm
-      - time: 10:45pm
-        text: _TBA_
