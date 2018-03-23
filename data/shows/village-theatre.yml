@@ -10,6 +10,6 @@ twitter: "villagetheatre"
 youtube: "https://www.youtube.com/user/TheVillageTheatre"
 
 showtimes:
-  - day: Friday
-    time: 09:00pm
-    stage: Main Stage
+  - day:
+    time:
+    stage:

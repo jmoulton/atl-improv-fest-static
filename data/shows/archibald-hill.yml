@@ -11,6 +11,6 @@ bio: |
 image: "archibald-hill.jpg"
 
 showtimes:
-  - day: Friday
-    time: 09:00pm
-    stage: Main Stage
+  - day:
+    time:
+    stage:

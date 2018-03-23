@@ -24,10 +24,17 @@ friday:
       - time: 07:00pm
       - time: 08:00pm
       - time: 09:00pm
+        text: |
+          Andel & Arch
+
+          Dave Hill and Friends
       - time: 10:00pm
         text: St.Clair & Morris
       - time: 11:00pm
-        text: "_Search Engine_ hosts *ALL-STAR JAM*"
+        text: |
+          _Search Engine_ hosts *ALL-STAR JAM*
+
+          Individual Actor Mashup
 
   - stage: Black Box
     slots:
@@ -36,11 +43,6 @@ friday:
         text: "[Battle - Match 20](/battle/#2018-04-06)"
       - time: 09:45pm
         text: "[Battle - Match 21](/battle/#2018-04-06)"
-      - time: 11:00pm
-        text: |
-          Individual Actor Mashup
-
-          Andel and Arch
 
 saturday:
   - stage: Main Stage
@@ -51,11 +53,11 @@ saturday:
         text: |
           VT Alumni
 
-          Dave Hill & Friends
+          Diet Mountain Thunder
       - time: 09:00pm
-        text: Search Engine
+        text: Dave Hill & Friends
       - time: 10:00pm
-        text: _TBA_
+        text: Search Engine
       - time: 11:00pm
         text: 2018 ATLIF Battle Finals
   - stage: Black Box
