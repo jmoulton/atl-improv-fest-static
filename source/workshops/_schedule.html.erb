@@ -11,7 +11,7 @@
         <h3 class="text-center"><%= workshop[0] %></h3>
         <div class="row">
           <% workshop[1].each do |w| %>
-            <p class="col-sm-4 text-center"><a href="/workshops/<%= w[0] %>/"><%= w[1]["title"] %></a><br/><em>with</em> <%= w[1]["teacher"] %></p>
+            <p class="<% if workshop[1].count > 1 %>col-sm-4<% else %>col-sm-12<% end %> text-center"><a href="/workshops/<%= w[0] %>/"><%= w[1]["title"] %></a><br/><em>with</em> <%= w[1]["teacher"] %></p>
           <% end %>
         </div>
       <% end %>
