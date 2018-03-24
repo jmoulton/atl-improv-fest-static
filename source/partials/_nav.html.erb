@@ -5,9 +5,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <% link_to '/', :class => 'navbar-brand page-scroll' do %>
-        <span class="blue">#ATLIF</span><span class="orange">2018</span>
-      <% end %>
+      <%= link_to '#ATLIF2018', '/', :fragment => 'page-top', :class => 'navbar-brand' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,10 +19,10 @@
         <li>
         <%= link_to 'About', '/about/' %>
         </li>
+        -->
         <li>
         <%= link_to 'Shows', '/shows/' %>
         </li>
-        -->
         <li>
         <%= link_to 'Battle', '/battle/' %>
         </li>
