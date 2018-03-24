@@ -10,6 +10,7 @@ bio: |
   Recently they headlined the OKC Winter Improv Festival this
   past December.
 image: "search-engine.jpg"
+highlight: true
 
 showtimes:
   - day: Saturday

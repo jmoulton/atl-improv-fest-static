@@ -18,7 +18,7 @@
                   <%= markdown(slot['text']) if slot['text'] %>
                   <% data.shows.each do |k,v| %>
                     <% if v['showtimes'].any?{|showtime| showtime == {"day" => day[0].capitalize, "time" => slot['time'], "stage" => stage['stage'] }} %>
-                      <p><a href="/shows/<%= k %>/"><%= v["title"] %></a></p>
+                      <p class="<% if v['highlight'] %>highlight<% end %><% if v['headliner'] %>headliner<% end %>"><a href="/shows/<%= k %>/"><%= v["title"] %></a></p>
                     <% end %>
                   <% end %>
                 <% end %>

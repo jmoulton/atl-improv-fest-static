@@ -6,6 +6,7 @@ bio: |
   Second City on both the ETC and Mainstage theaters.  Currently Brad and Andy both live in
   Los Angeles where they perform and go to Clippers games together.
 image: "stclair-morris.png"
+headliner: true
 
 showtimes:
   - day: Friday
