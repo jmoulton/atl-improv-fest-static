@@ -333,3 +333,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255,255,255,0.5);
   margin-bottom: 0;
 }
+
+#show .showtime {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 0px;
+  margin-bottom: 5px;
+}

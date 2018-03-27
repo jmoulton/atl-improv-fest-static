@@ -12,13 +12,17 @@ layout: "layout"
       <% if show.image && show.image != "" %>
         <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive show-img" src="/images/shows/<%=show.image %>" title="<%= show.title %>" alt="<%= show.title %>"/></div>
       <% end %>
+      <div class="showtime">
       <% show.showtimes.each do |showtime| %>
-        <p>
-        <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em><br/>
+        <p class="text-center">
+        <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em>
+        </p>
+        <p class="text-center">
         <a href="<%= showtime.tix %>" class="btn btn-default"><i class='fa fa-ticket' aria-hidden='true'></i> Tix</a>
-        <a href="https://www.freshtix.com/events/2018-atlanta-improv-festival" class="btn btn-default"><i class='fa fa-id-badge' aria-hidden='true'></i> Night and weekend passes</a>
+        <a href="https://www.freshtix.com/events/2018-atlanta-improv-festival" class="btn btn-default"><i class='fa fa-id-badge' aria-hidden='true'></i> Passes</a>
         </p>
       <% end %>
+      </div>
       <%= markdown(show.bio) %>
       <%# if show.cast %>
       <% if false %>
