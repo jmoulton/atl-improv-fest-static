@@ -12,3 +12,5 @@ showtimes:
   - day: Friday
     time: 10:00pm
     stage: Main Stage
+    tix: https://www.freshtix.com/events/st-clair-morris
+

@@ -19,3 +19,4 @@ showtimes:
   - day: Thursday
     time: 10:00pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/defiant-thomas-brothers"

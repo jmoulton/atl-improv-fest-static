@@ -7,9 +7,9 @@ bio: |
 image: "danger.jpg"
 url: "http://villagecomedy.com/"
 facebook: "https://www.facebook.com/DangerTheShow"
-tix: https://www.freshtix.com/events/danger-the-show-and-meat--3
 
 showtimes:
   - day: Thursday
     time: 08:00pm
     stage: Main Stage
+    tix: https://www.freshtix.com/events/danger-the-show-and-meat--3

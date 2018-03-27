@@ -1,9 +1,7 @@
 <h4>
   <% if defined?(date_inline) && date_inline == true %>
     <%= Date.parse(match[0]).strftime('%A, %B %e') %>
-    <% if match[1].tix && !match[1].complete %> - <% end %>
   <% end %>
-  <% if match[1].tix && !match[1].complete %><%= link_to "Tickets", match[1].tix %><% end %>
 </h4>
 
 <p>
@@ -35,7 +33,8 @@
     <em>TBA</em><br/>
   <% end %>
   <%= match[1].time %> @ <%= match[1].location %>
+  <% if match[1].tix && !match[1].complete %><br/><%= link_to "Tickets", match[1].tix %><% end %>
   <% if match[1].facebook %><br/><a href="<%= match[1].facebook %>"><i class="fa fa-facebook-official" aria-hidden="true"></i> Event </a><% end %>
 <% end %>
-
 </p>
+<hr/>

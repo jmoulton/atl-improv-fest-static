@@ -12,3 +12,4 @@ showtimes:
   - day: Saturday
     time: 06:00pm
     stage: Main Stage
+    tix: https://www.freshtix.com/events/four-first-names

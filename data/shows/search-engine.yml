@@ -16,3 +16,4 @@ showtimes:
   - day: Saturday
     time: 10:00pm
     stage: Main Stage
+    tix: https://www.freshtix.com/events/search-engine-3peat

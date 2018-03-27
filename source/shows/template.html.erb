@@ -14,7 +14,9 @@ layout: "layout"
       <% end %>
       <% show.showtimes.each do |showtime| %>
         <p>
-          <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em>
+        <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em><br/>
+        <a href="<%= showtime.tix %>" class="btn btn-default"><i class='fa fa-ticket' aria-hidden='true'></i> Tix</a>
+        <a href="https://www.freshtix.com/events/2018-atlanta-improv-festival" class="btn btn-default"><i class='fa fa-id-badge' aria-hidden='true'></i> Night and weekend passes</a>
         </p>
       <% end %>
       <%= markdown(show.bio) %>

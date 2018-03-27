@@ -11,3 +11,4 @@ showtimes:
   - day: Saturday
     time: 07:00pm
     stage: Main Stage
+    tix: https://www.freshtix.com/events/haymaker
