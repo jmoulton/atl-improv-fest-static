@@ -13,6 +13,10 @@ url: http://www.jnamescomedy.com/
 facebook: https://www.facebook.com/jnamesimprov/
 
 showtimes:
+  - day: Thursday
+    time: 09:00pm
+    stage: Main Stage
+    tix: https://www.freshtix.com/events/tba
   - day: Saturday
     time: 08:30pm
     stage: Black Box
