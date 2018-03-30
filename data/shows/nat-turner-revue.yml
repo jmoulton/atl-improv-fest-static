@@ -9,6 +9,10 @@ image: "nat-turner-revue.jpg"
 facebook: "https://www.facebook.com/ntrevue/"
 
 showtimes:
+  - day: Friday
+    time: 07:30pm
+    stage: Black Box
+    tix: https://www.freshtix.com/events/the-nat-turner-revue
   - day: Saturday
     time: 07:30pm
     stage: Black Box
