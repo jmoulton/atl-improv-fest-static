@@ -5,3 +5,8 @@ teams:
   - co-workers
   - six-kids-in-a-trenchcoat
   - gamey-bullshit
+complete: true
+results:
+  - gamey-bullshit: 72
+  - co-workers: 66
+  - six-kids-in-a-trenchcoat: 66

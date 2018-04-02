@@ -1,5 +1,9 @@
 date: "2018-04-05"
 time: "10:00pm"
 location: "Village Theatre"
-tba: true
 tix: https://www.freshtix.com/events/battle-match-18
+teams:
+  - big-poppa
+  - overly-dramatic-crescendo
+  - js-on-my-feet
+

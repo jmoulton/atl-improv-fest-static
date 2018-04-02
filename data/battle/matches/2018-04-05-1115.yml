@@ -1,5 +1,8 @@
 date: "2018-04-05"
 time: "11:15pm"
 location: "Village Theatre"
-tba: true
 tix: https://www.freshtix.com/events/battle-match-19
+teams:
+  - gamey-bullshit
+  - two-worms
+  - dance-party

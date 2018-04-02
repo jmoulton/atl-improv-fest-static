@@ -5,3 +5,8 @@ teams:
   - slice-of-life
   - big-poppa
   - poker-night
+complete: true
+results:
+  - big-poppa: 101
+  - slice-of-life: 95
+  - poker-night: 68
