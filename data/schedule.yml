@@ -10,16 +10,24 @@ thursday:
   - stage: Black Box
     slots:
       - time: 07:30pm
-        text: "[Battle Match 16](/battle/#2018-04-05)"
+        text: |
+          [Battle Match 16](/battle/#2018-04-05)
+          Unprepared _vs._ Behind The Scenes _vs._ Slice Of Life
         tix: https://www.freshtix.com/events/battle-match-16
       - time: 08:45pm
-        text: "[Battle Match 17](/battle#2018-04-05)"
+        text: |
+          [Battle Match 17](/battle#2018-04-05)
+          Underdogs _vs._ Legend _vs._ Co-Workers
         tix: https://www.freshtix.com/events/battle-match-17
       - time: 10:00pm
-        text: "[Battle Match 18](/battle#2018-04-05)"
+        text: |
+          [Battle Match 18](/battle#2018-04-05)
+          Big Poppa _vs._ Overly Dramatic Crescendo _vs._ Js On My Feet
         tix: https://www.freshtix.com/events/battle-match-18
       - time: 11:05pm
-        text: "[Battle Match 19](/battle#2018-04-05)"
+        text: |
+          [Battle Match 19](/battle#2018-04-05)
+          Gamey Bullshit _vs._ Two Worms _vs._ Freddy, Sara, and Andrew have a Dance Party
         tix: https://www.freshtix.com/events/battle-match-19
 
 friday:
