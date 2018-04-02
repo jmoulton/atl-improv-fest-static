@@ -73,8 +73,6 @@ saturday:
   - stage: Black Box
     slots:
       - time: 05:30pm
-        tix: https://www.freshtix.com/events/atlanta-improv-festival---improv-camp---town-hall---teaching-talk
-        text: _IMPROV CAMP_ - Town Hall
       - time: 06:30pm
       - time: 07:30pm
       - time: 08:30pm
