@@ -5,8 +5,8 @@ teams:
   - unprepared
   - overly-dramatic-crescendo
   - the-pop-cultists
-#complete: true
-#results:
-  #- unprepared
-  #- overly-dramatic-crescendo
-  #- the-pop-cultists
+complete: true
+results:
+  - unprepared: 62
+  - overly-dramatic-crescendo: 51
+  - the-pop-cultists: 43

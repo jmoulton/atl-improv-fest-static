@@ -5,3 +5,8 @@ teams:
   - two-worms
   - underdogs
   - queeriety
+complete: true
+results:
+  - underdogs: 62
+  - two-worms: 54
+  - queeriety: 52
