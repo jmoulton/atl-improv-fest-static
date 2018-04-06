@@ -6,3 +6,8 @@ teams:
   - unprepared
   - behind-the-scenes
   - slice-of-life
+complete: true
+results:
+  - behind-the-scenes: 133
+  - slice-of-life: 117
+  - unprepared: 0

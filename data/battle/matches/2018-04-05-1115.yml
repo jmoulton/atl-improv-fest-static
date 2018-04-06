@@ -6,3 +6,8 @@ teams:
   - gamey-bullshit
   - two-worms
   - dance-party
+complete: true
+results:
+  - dance-party: 119
+  - gamey-bullshit: 111
+  - two-worms: 106

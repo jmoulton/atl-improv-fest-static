@@ -6,3 +6,8 @@ teams:
   - underdogs
   - legend
   - co-workers
+complete: true
+results:
+  - co-workers: 66
+  - legend: 46
+  - underdogs: 44

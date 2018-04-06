@@ -48,10 +48,14 @@ friday:
     slots:
       - time: 07:30pm
       - time: 08:30pm
-        text: "[Battle Match 20](/battle/#2018-04-06)"
+        text: |
+          [Battle Match 20](/battle/#2018-04-06)
+          Behind The Scenes _vs._ Overly Dramatic Crescendo _vs._ Gamey Bullshit
         tix: https://www.freshtix.com/events/battle-match-20
       - time: 09:45pm
-        text: "[Battle Match 21](/battle/#2018-04-06)"
+        text: |
+          [Battle Match 21](/battle/#2018-04-06)
+          Co-Workers _vs._ Freddy, Sara, and Andrew have a Dance Party _vs._ Slice Of Life
         tix: https://www.freshtix.com/events/battle-match-21
 
 saturday:

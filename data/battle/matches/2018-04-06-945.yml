@@ -1,5 +1,8 @@
 date: "2018-04-06"
 time: "9:45pm"
 location: "Village Theatre"
-tba: true
 tix: https://www.freshtix.com/events/battle-match-21
+teams:
+  - co-workers
+  - dance-party
+  - slice-of-life
