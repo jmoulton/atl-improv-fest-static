@@ -4,18 +4,22 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Atlanta Improv Festival Battle</h2>
-          <a href="/battle/"><img class="hidden-xs" align="right" src="/img/battle-logo.png" alt="Atlanta Improv Festival Battle"/></a>
+          <br />
           <p>
-            The Atlanta Improv Battle is a 27 team competition where the audience decides the winners each night.
-            The Tournament lasts several weeks culminating in the Atlanta Improv Festival on April 5-7.
-            There we will crown this year's champion and winner of the $1,000 grand prize.
+            The Atlanta Improv Battle is am improv team competition where the audience decides the winners each night.
+            The Tournament lasts several weeks culminating in the Atlanta Improv Festival on April 27th.
           </p>
+          <br />
           <p>
-            <% data.battle.matches.to_a.group_by{|x| x[1].date}.sort.each do |d| %>
-              <%= link_to Date.parse(d[0]).strftime('%B %e'), "/battle/index.html", fragment: d[0], class: "battle-date" %>
-              <%= " | " if data.battle.matches.to_a.group_by{|x| x[1].date}.sort.to_a.last[0] != d[0] %>
-            <% end %>
+            The Atlanta Improv Festival is currently looking for 27-36 teams to participate in this year's battle.
+            First prize receivs a $1000 prize. Teams must have a minimum of 2 performers and a maximum of 8
+            performers. For more information, check the out the 2019 rules and guidelines below.
           </p>
+          <br />
+          <p>
+            Registration will be open soon
+          </p>
+          <br />
         </div>
     </div>
 </section>
