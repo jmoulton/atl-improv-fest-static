@@ -353,3 +353,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0px;
   margin-bottom: 5px;
 }
+
+h3#battle-date-header {
+  color: #ff9f43;
+}
+
+hr#battle-line {
+  background-color: #00d2d3;
+  height: 1px;
+  border: 0;
+}

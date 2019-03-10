@@ -1,40 +1,43 @@
 <h4>
   <% if defined?(date_inline) && date_inline == true %>
-    <%= Date.parse(match[0]).strftime('%A, %B %e') %>
+    <%= Date.parse(date).strftime('%A, %B %e') %>
   <% end %>
 </h4>
 
 <p>
-<% if match[1].complete %>
-  <% match[1].results.each_with_index do |team, idx| %>
-    <% if idx == 0 %>
-      <strong>Winner:</strong>
-    <% elsif idx == 1 %>
-      <em>Runner Up:</em>
-    <% end %>
-    <a href="/battle/teams/<%= team.first[0] %>/"><%= data.battle.teams["#{team.first[0]}"].name %></a> - <%= team.first[1] %> pts.
-
-    <br/>
-  <% end %>
-
-<% else %>
-  <% if match[1].teams %>
-    <% match[1].teams.each do |team_id| %>
-      <a href="/battle/teams/<%= team_id %>/"><%= data.battle.teams["#{team_id}"].name %></a> <%= "vs." if team_id != match[1].teams.last %>
-    <% end %>
-    <% if match[1].additional_teams %>
-      <% match[1].additional_teams.each do |team| %>
-        vs. <%= team %>
+<% matches.each do |match| %>
+  <% if match.complete %>
+    <% match.results.each_with_index do |team, idx| %>
+      <% if idx == 0 %>
+        <strong>Winner:</strong>
+      <% elsif idx == 1 %>
+        <em>Runner Up:</em>
       <% end %>
+      <a href="/battle/teams/<%= team.first[0] %>/"><%= data.battle.teams["#{team.first[0]}"].name %></a> - <%= team.first[1] %> pts.
+
+      <br/>
     <% end %>
-    <br/>
+
+  <% else %>
+    <% if match.teams %>
+      <% match.teams.each do |team_id| %>
+        <a href="/battle/teams/<%= team_id %>/"><%= data.battle.teams["#{team_id}"].name %></a> <%= "vs." if team_id != match[1].teams.last %>
+      <% end %>
+      <% if match.additional_teams %>
+        <% match.additional_teams.each do |team| %>
+          vs. <%= team %>
+        <% end %>
+      <% end %>
+      <br/>
+    <% end %>
+    <% if match.tba %>
+      <em>TBA</em><br/>
+    <% end %>
+    <%= match.time %> @ <%= match.location %>
+    <% if match.tix && !match.complete %><br/><%= link_to "Tickets", match.tix %><% end %>
+    <% if match.facebook %><br/><a href="<%= match.facebook %>"><i class="fa fa-facebook-official" aria-hidden="true"></i> Event </a><% end %>
   <% end %>
-  <% if match[1].tba %>
-    <em>TBA</em><br/>
-  <% end %>
-  <%= match[1].time %> @ <%= match[1].location %>
-  <% if match[1].tix && !match[1].complete %><br/><%= link_to "Tickets", match[1].tix %><% end %>
-  <% if match[1].facebook %><br/><a href="<%= match[1].facebook %>"><i class="fa fa-facebook-official" aria-hidden="true"></i> Event </a><% end %>
+  <br />
 <% end %>
 </p>
-<hr/>
+<hr id="battle-line"/>

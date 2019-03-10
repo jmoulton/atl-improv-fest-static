@@ -1,12 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 battle-schedule">
-      <% data.battle.matches.to_a.sort_by{|x| x[0]}.group_by{|x| x[1].date}.each do |d| %>
-        <%= partial "date-heading", locals: { date: d[0] } %>
-        <% d[1].each do |match| %>
-          <%= partial "match", locals: { match: match } %>
-        <% end %>
-        <hr/>
+      <% data.battle.matches.each do |date, matches| %>
+        <%= partial "date-heading", locals: { date: date } %>
+        <%= partial "match", locals: { matches: matches['matches'], date: date } %>
       <% end %>
     </div>
   </div>
