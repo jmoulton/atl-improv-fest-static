@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 battle-schedule">
-      <% data.battle.matches.each do |date, matches| %>
+      <% data.battle.matches.sort.to_h.each do |date, matches| %>
         <%= partial "date-heading", locals: { date: date } %>
         <%= partial "match", locals: { matches: matches['matches'], date: date } %>
       <% end %>
