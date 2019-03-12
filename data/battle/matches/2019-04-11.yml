@@ -3,7 +3,15 @@ matches:
    time: "8:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - legend
+     - murder-show
+     - news-of-yesteryear
  - date: '2019-04-11'
    time: "10:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - fake-names
+     - your-special
+     - dear-abby

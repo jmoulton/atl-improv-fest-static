@@ -3,7 +3,15 @@ matches:
    time: "8:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - mggsy-barkley
+     - maggies
+     - privledged
  - date: '2019-04-05'
    time: "10:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - big-poppa
+     - creatures
+     - sandbox-players

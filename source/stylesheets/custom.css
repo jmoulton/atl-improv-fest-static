@@ -355,11 +355,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3#battle-date-header {
-  color: #ff9f43;
+  color #c8d6e5;
 }
 
 hr#battle-line {
-  background-color: #00d2d3;
+  background-color: #f368e0;
   height: 1px;
   border: 0;
 }

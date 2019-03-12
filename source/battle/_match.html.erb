@@ -6,6 +6,7 @@
 
 <p>
 <% matches.each do |match| %>
+  <%= match.time %> @ <%= match.location %>
   <% if match.complete %>
     <% match.results.each_with_index do |team, idx| %>
       <% if idx == 0 %>
@@ -20,8 +21,9 @@
 
   <% else %>
     <% if match.teams %>
+      <br />
       <% match.teams.each do |team_id| %>
-        <a href="/battle/teams/<%= team_id %>/"><%= data.battle.teams["#{team_id}"].name %></a> <%= "vs." if team_id != match[1].teams.last %>
+        <a href="/battle/teams/<%= team_id %>/"><%= data.battle.teams["#{team_id}"].name %></a> <%= "vs." if team_id != match.teams.last %>
       <% end %>
       <% if match.additional_teams %>
         <% match.additional_teams.each do |team| %>
@@ -33,11 +35,11 @@
     <% if match.tba %>
       <em>TBA</em><br/>
     <% end %>
-    <%= match.time %> @ <%= match.location %>
     <% if match.tix && !match.complete %><br/><%= link_to "Tickets", match.tix %><% end %>
     <% if match.facebook %><br/><a href="<%= match.facebook %>"><i class="fa fa-facebook-official" aria-hidden="true"></i> Event </a><% end %>
+    <br />
   <% end %>
-  <br />
 <% end %>
 </p>
 <hr id="battle-line"/>
+<br />

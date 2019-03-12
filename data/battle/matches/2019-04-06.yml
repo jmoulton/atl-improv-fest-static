@@ -3,7 +3,15 @@ matches:
    time: "8:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - trust
+     - yiayias
+     - different-but-same
  - date: '2019-04-06'
    time: "9:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - jkav
+     - nofilter
+     - tapestry
