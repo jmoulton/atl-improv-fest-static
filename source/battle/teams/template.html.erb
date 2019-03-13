@@ -5,6 +5,8 @@ layout: "layout"
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
       <p class="breadcrumbs"><a href="/battle/"><i class="fa fa-chevron-left" aria-hidden="true"></i> Battle</a></p>
+      <br />
+      <br />
       <h1><%= team.name %></h1>
       <% if team.bio %>
         <p><%= team.bio %></p>
@@ -14,9 +16,9 @@ layout: "layout"
       <% end %>
       <h3>Battles:</h3>
       <span class="battle-schedule">
-        <% data.battle.matches.to_a.each do |match| %>
-          <% if match[1]['teams'] && match[1]['teams'].include?(id) %>
-            <%= partial "battle/match", locals: { match: match, date_inline: true } %>
+        <% data.battle.matches.flat_map { |k, v| v['matches'] }.each do |match| %>
+          <% if match['teams'] && match['teams'].include?(id) %>
+            <%= partial "battle/match", locals: { matches: [match], date: match.date,  date_inline: true } %>
           <% end %>
         <% end %>
       </span>
