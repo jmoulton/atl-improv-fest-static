@@ -3,8 +3,21 @@
   <div class="container">
     <div class="col-lg-8 col-lg-offset-2">
       <h2>Workshops</h2>
-      <p>The Atlanta Improv Festival offers many workshops from some of the top improvisors from around the country. We're still working on finalizing the available workshops.
-         Check back here over the next few weeks for more information and signup links. Stay tuned!</p>
+      <p>The Atlanta Improv Festival weekend isn’t just for watching improv til your eyes melt, but for all improvisers to tone those improv muscles by participating in workshops. We lined up a bunch of useful and fun workshops for the weekend taught by amazing improvisers from all over the country!</p>
+      <p>More workshops will be announced over the next few weeks, so stay tuned!</p>
+      <br />
+      <br />
+    </div>
+    <div class="col-xs-12">
+      <% data.workshops.group_by{|x| x[1]['time']}.each do |date, workshops| %>
+        <h1 class="text-center"><%= date %></h1>
+        <div class="row">
+          <% workshops.each do |w| %>
+            <p class="<% if workshops.count > 1 %>col-sm-4<% else %>col-sm-12<% end %> text-center"><a href="/workshops/<%= w[0] %>/"><%= w[1]["title"] %></a><br/><em>with</em> <%= w[1]['teacher'].is_a?(Array) ? w[1]['teacher'].join(' and ' ) : w[1]["teacher"] %></p>
+          <% end %>
+        </div>
+      <br />
+      <% end %>
     </div>
   </div>
 </section>

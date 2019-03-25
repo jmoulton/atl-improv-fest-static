@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Noto+Sans+SC');
 
 @font-face {
     font-family: 'thirsty_softregular';
@@ -357,16 +358,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h3, h4, h5 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Courgette', cursive;
+  text-transform: none;
+  color: #ff9f43;
 }
 
 h2#battle-date-header {
-  color: #FFF;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Courgette', cursive;
+  text-transform: none;
+  color: #ff9f43;
 }
 
 hr#battle-line {
   background-color: #f368e0;
   height: 1px;
   border: 0;
+}
+
+h2#workshop {
+  font-family: 'Courgette', cursive;
+}
+
+h3 {
+  font-family: 'Noto Sans SC', sans-serif;
+  text-transform: none;
+  color: #ff9f43;
 }
