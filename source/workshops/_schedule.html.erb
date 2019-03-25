@@ -9,7 +9,7 @@
       <br />
     </div>
     <div class="col-xs-12">
-      <% data.workshops.group_by{|x| x[1]['time']}.each do |date, workshops| %>
+      <% data.workshops.group_by{|x| x[1]['time']}.reverse_each do |date, workshops| %>
         <h1 class="text-center"><%= date %></h1>
         <div class="row">
           <% workshops.each do |w| %>
