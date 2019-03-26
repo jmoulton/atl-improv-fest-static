@@ -18,6 +18,11 @@ body {
   /*background: #FFF3E2;*/
   background: #341f97;
 }
+
+.main-container {
+  padding-bottom: 170px;
+}
+
 h2 {
   font-family: thirsty_softregular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   /*color: #341f97;*/
