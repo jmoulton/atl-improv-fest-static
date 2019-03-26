@@ -1,0 +1,29 @@
+title: "Magical Lying Hour"
+location: "Houston, TX"
+bio: |
+  The show unites contemporary theater and improvisational comedy to create a show that
+  is not completely either. Each scene finds an actor performing her role from a modern play.
+  She is directed and prepared for this role as much as any other role in any other
+  production, and she is ready to bring this character to life on stage. However, she
+  is joined on stage not by another actor, but by an improviser, who, like the audience,
+  knows nothing about the play, the plot, or their character.
+
+  Together the actor and improviser work to build a world and perform their scene, all while
+  the actor does not deviate from the lines prescribed by the playwright. Through listening,
+  patience, quick-thinking, and cooperation the two unlikely teammates create something unlike
+  anything they've done before.
+
+headliner: false
+facebook: "https://www.facebook.com/MagicalLyingHour/"
+
+cast:
+  - Aaron Garett
+  - Ruth Hirsch
+  - Steven Saltsman
+  - Riley Smith
+  - Liz Castillo
+
+showtimes:
+  - day: "Friday"
+    time: "9:00pm"
+    stage: "Main Theatre"

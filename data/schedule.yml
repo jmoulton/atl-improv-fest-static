@@ -1,83 +1,107 @@
-thursday:
+Thursday:
   - stage: Main Stage
     slots:
       - time: 08:00pm
+        text: |
+          Crazy, Sexy, Cool
       - time: 09:00pm
+        text: |
+          Midy Zevlin _and_  
+          Improv Chattanooga
       - time: 10:00pm
+        text: |
+          Thursday Night Headliners
       - time: 11:00pm
-        text: "*PARTY* - Karaoke with Allen"
-        tix: https://www.freshtix.com/events/karoke-with-allen
+        text: "Seance"
   - stage: Black Box
     slots:
       - time: 07:30pm
         text: |
-          [Battle Match 16](/battle/#2018-04-05)
-          Unprepared _vs._ Behind The Scenes _vs._ Slice Of Life
-        tix: https://www.freshtix.com/events/battle-match-16
+          [Battle](/battle/#2018-04-25)
+          _Battle Quarter Final 1_
       - time: 08:45pm
         text: |
-          [Battle Match 17](/battle#2018-04-05)
-          Underdogs _vs._ Legend _vs._ Co-Workers
-        tix: https://www.freshtix.com/events/battle-match-17
+          [Battle](/battle#2018-04-25)
+          _Battle Quarter Final 2_
       - time: 10:00pm
         text: |
-          [Battle Match 18](/battle#2018-04-05)
-          Big Poppa _vs._ Overly Dramatic Crescendo _vs._ Js On My Feet
-        tix: https://www.freshtix.com/events/battle-match-18
-      - time: 11:05pm
+          [Battle](/battle#2018-04-25)
+          _Battle Quarter Final 3_
+      - time: 11:15pm
         text: |
-          [Battle Match 19](/battle#2018-04-05)
-          Gamey Bullshit _vs._ Two Worms _vs._ Freddy, Sara, and Andrew have a Dance Party
-        tix: https://www.freshtix.com/events/battle-match-19
+          [Battle](/battle#2018-04-25)
+          _Battle Quarter Final 4_
 
-friday:
+Friday:
   - stage: Main Stage
     slots:
       - time: 07:00pm
-      - time: 08:00pm
-      - time: 09:00pm
+      - time: 07:45pm
+        text: |
+          West of Shake Rag  
+          The Wet Bandits  
+          Magical lying Hour  
+          I Am The Show
       - time: 10:00pm
+        text: |
+          Friday Night Headliner
       - time: 11:00pm
-        tix: https://www.freshtix.com/events/all-star-jam
         text: |
           _Search Engine_ hosts *ALL-STAR JAM*
-
-          Individual Actor Mashup
-
+      - time: 12:00am
+        text: |
+          KARAOKE WITH ALLEN
   - stage: Black Box
     slots:
       - time: 07:30pm
-      - time: 08:30pm
         text: |
-          [Battle Match 20](/battle/#2018-04-06)
-          Behind The Scenes _vs._ Overly Dramatic Crescendo _vs._ Gamey Bullshit
-        tix: https://www.freshtix.com/events/battle-match-20
-      - time: 09:45pm
+          Bit Show
+      - time: 08:45pm
         text: |
-          [Battle Match 21](/battle/#2018-04-06)
-          Co-Workers _vs._ Freddy, Sara, and Andrew have a Dance Party _vs._ Slice Of Life
-        tix: https://www.freshtix.com/events/battle-match-21
+          Scene Pena Improv  
+          Scamp  
+          Camp  
+      - time: 10:00pm
+        text: |
+          [Battle](/battle/#2018-04-26)
+          _Battle Semifinal 1_
+      - time: 11:15pm
+        text: |
+          [Battle](/battle/#2018-04-26)
+          _Battle Semifinal 2_
 
-saturday:
+Saturday:
   - stage: Main Stage
     slots:
       - time: 06:00pm
-      - time: 07:00pm
-      - time: 08:00pm
-        tix: https://www.freshtix.com/events/vt-alumni
         text: |
-          VT Alumni
-
-          Diet Mountain Thunder
+          Estessentials  
+          Let's Try This  
+          16 Oz Chili  
+          Spoon  
+          Rufio  
+      - time: 08:05pm
+        text: |
+          VT ULUMNI  
+          Improvised Vagina Monologues  
       - time: 09:00pm
+        text: |
+          Dave Hill and Friends
       - time: 10:00pm
+        text: |
+          Saturday Night Headliners
       - time: 11:00pm
-        tix: https://www.freshtix.com/events/2018-atlif-battle-finals
         text: 2018 ATLIF Battle Finals
   - stage: Black Box
     slots:
       - time: 05:30pm
+        text: |
+          Town Hall
       - time: 06:30pm
-      - time: 07:30pm
-      - time: 08:30pm
-      - time: 09:30pm
+        text: |
+          Meat & 3  
+          Harriet  
+          Amanda & Emily  
+          We, Robot  
+          Harpoon  
+          Definitely Not Murderers

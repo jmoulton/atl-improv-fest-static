@@ -1,0 +1,20 @@
+title: 'We Robot'
+location: 'Chicago, IL'
+bio: |
+  Bill Arnett and Chris George first met in 2008 when Bill taught CG at iO;
+  fast forward 10 years later and Bill has published a book ("The Complete Improviser") and
+  started his own theater (Chicago Improv Studio) and CG is back in Chicago after founding
+  a theater in San Diego (Finest City Improv). These two veterans have teamed up to
+  create real "guy-in-the-office" comedy.
+
+image: "we-robot.jpg"
+headliner: false
+
+cast:
+  - Bill Arnett
+  - Chris George
+
+showtimes:
+  - day: "Saturday"
+    time: "8:30pm"
+    stage: "Main Stage"

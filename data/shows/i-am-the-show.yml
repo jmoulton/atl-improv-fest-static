@@ -1,0 +1,18 @@
+title: "I am the Show"
+location: "Chicago, IL"
+bio: |
+  This show began in 2014, but had been being kicked around for several years prior.
+  A two-man show, with one human, and one machine. One visual, one audio. One responding,
+  the other giving. The audience picks one show or movie, and CG improvises dialogue,
+  sound effects, and music. If it plays on Hulu, he improvises the commercials.
+
+image: 'iamtheshow.jpg'
+headliner: false
+
+cast:
+  - Chris George
+
+showtimes:
+  - day: Friday
+    time: 9:45pm
+    stage: Main Stage

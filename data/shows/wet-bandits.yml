@@ -1,0 +1,25 @@
+title: "The Wet Bandits"
+location: "St. Petersberg, FL"
+bio: |
+  An unholy combination of elbow grease and navel lint, this
+  quintet of professional snowboarders always takes the stage
+  striving to put right what once went wrong. The Wet Bandits
+  put the "uhhh" back in "uhhhmprov".
+
+image: "wet-bandits.png"
+facebook: "https://www.facebook.com/wetbanditsimprov/"
+headliner: false
+
+cast:
+  - John
+  - Diana
+  - Lauren
+  - Kevin
+  - Eric
+  - Kristopher
+
+showtimes:
+  - day: Friday
+    time: 8:10pm
+    stage: Main Stage
+

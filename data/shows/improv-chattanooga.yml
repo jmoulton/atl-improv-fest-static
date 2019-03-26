@@ -1,0 +1,38 @@
+title: "Improv Chattanooga"
+location: "Chattanooga, TN"
+bio: |
+  Founded in 1995 in Dalton GA as "Runs With Scissors," this troupe has a
+  long and storied history of performing around the Southeast Tennessee and North Georgia areas.
+  In 2015, remaining RWS members Steve Disbrow and Kevin Bartolomucci decided to
+  rebrand as "Improv Chattanooga," and focus on training the next generation of players.
+  Since then, Improv Chattanooga has trained over 100 students, many of whom are now in the
+  main troupe.
+
+  In 2017, they signed the lease on their first full-time theater, and became Chattanooga's
+  first and only Improv Theater, putting on 4 shows every week. (Two long form and 2 short form.)
+  For the past two years, they've also put on a special "24 Hours of Improv" show as part of
+  Chattanooga's "MainX24" downtown festival. They've recently expanded and moved to a newer,
+  larger space, where they continue to put on 4 shows a week.
+
+image: "improv-chat.png"
+url: "https://www.youtube.com/watch?v=sU3BGDt4YPU&t=973s"
+facebook: "https://www.facebook.com/improvchattanooga"
+headliner: false
+
+cast:
+  - Corey Bain
+  - Luke Bechtel
+  - Berry Carroll
+  - Lucas Cato
+  - Steven Disbrow
+  - Beth Long
+  - Lucy
+  - David Sarton
+  - Emily Valdes
+  - Felicio E Whitaker
+
+showtimes:
+  - day: Thursday
+    time: 9:25pm
+    stage: Main Stage
+
