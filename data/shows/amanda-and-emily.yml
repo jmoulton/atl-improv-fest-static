@@ -1,0 +1,22 @@
+title: "Amanda and Emily"
+location: "Orlando, FL"
+bio: |
+  Improv duo Amanda Wirtz and Emily Fontano are real life best friends
+  and improvisers. They are known to talk loudly, often and overshare
+  with their audience - no topic is off limits. Join them and your fellow
+  audience members on a musical trip of self discovery, forgiveness and
+  absolute hilarity inspired by conversations with the crowd!
+
+image: "amanda_and_emily.pdf"
+url: "http://https//www.youtube.com/watch?v=SAqrBeJYq6M"
+facebook: "https://www.facebook.com/AmandaandEmily/"
+headliner: false
+
+cast:
+  - Emily Fontano
+  - Amanda Wirtz
+
+showtimes:
+  - day: Saturday
+    time: 7:45pm
+    stage: Blackbox
