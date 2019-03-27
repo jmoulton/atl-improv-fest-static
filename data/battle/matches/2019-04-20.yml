@@ -1,9 +1,9 @@
 matches:
  - date: '2019-04-20'
-   time: "8:30pm"
+   time: "8:00pm"
    location: "Village Theatre"
    complete: false
  - date: '2019-04-20'
-   time: "10:00pm"
+   time: "09:30pm"
    location: "Village Theatre"
    complete: false
