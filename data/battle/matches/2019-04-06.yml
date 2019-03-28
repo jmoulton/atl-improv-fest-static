@@ -7,6 +7,8 @@ matches:
      - trust
      - yiayias
      - different-but-same
+   tix: "https://www.freshtix.com/events/trust-the-yiayias-different-but-same---battle-5-4-6-19"
+
  - date: '2019-04-06'
    time: "9:30pm"
    location: "Village Theatre"
@@ -15,3 +17,4 @@ matches:
      - jkav
      - nofilter
      - tapestry
+   tix: "https://www.freshtix.com/events/jkav-nofilter-tapestry---battle-6-4-6-19"

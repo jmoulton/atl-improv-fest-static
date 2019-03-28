@@ -7,6 +7,8 @@ matches:
      - mggsy-barkley
      - pineapple-rollercoaster
      - privledged
+   tix: "https://www.freshtix.com/events/mggsy-barkley-the-maggies-priviledged---battle-3-4-5-19"
+
  - date: '2019-04-05'
    time: "10:00pm"
    location: "Village Theatre"
@@ -15,3 +17,4 @@ matches:
      - big-poppa
      - creatures
      - sandbox-players
+   tix: "https://www.freshtix.com/events/big-poppa-the-creatures-the-sandbox-players---battle-4-4-5-19"

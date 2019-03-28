@@ -35,7 +35,11 @@
     <% if match.tba %>
       <em>TBA</em><br/>
     <% end %>
-    <% if match.tix && !match.complete %><br/><%= link_to "Tickets", match.tix %><% end %>
+    <% if match.tix && !match.complete %>
+      <br />
+      <a class="btn btn-default btn-lg" href=<%= match.tix %>><i class="fa fa-id-badge fa"></i>  Buy Tickets Now!</a>
+    <% end %>
+    <br />
     <% if match.facebook %><br/><a href="<%= match.facebook %>"><i class="fa fa-facebook-official" aria-hidden="true"></i> Event </a><% end %>
     <br />
   <% end %>
