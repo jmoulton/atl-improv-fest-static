@@ -7,6 +7,7 @@ matches:
      - legend
      - murder-show
      - news-of-yesteryear
+
  - date: '2019-04-11'
    time: "10:00pm"
    location: "Village Theatre"
@@ -15,3 +16,4 @@ matches:
      - fake-names
      - your-special
      - dear-abby
+   tix: "https://www.freshtix.com/events/fake-names-youre-special-dear-abby---battle-8-4-11-19"

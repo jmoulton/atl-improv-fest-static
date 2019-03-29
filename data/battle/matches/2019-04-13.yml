@@ -7,6 +7,8 @@ matches:
      - chmf
      - maggies
      - too-many-cooks
+   tix: "https://www.freshtix.com/events/cold-hearted-mutha-fers-pineapple-rollercoaster-too-many-cooks-battle-11-4-12"
+
  - date: '2019-04-04'
    time: "9:30pm"
    location: "Village Theatre"
@@ -15,3 +17,4 @@ matches:
      - group-therapy
      - cascade
      - figuring-it-out
+   tix: "https://www.freshtix.com/events/group-therapy-cascade-figuring-it-out---battle-12-4-13-19"
