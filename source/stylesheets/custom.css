@@ -361,10 +361,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5px;
 }
 
+#bio {
+  min-height: 625px;
+}
+
 h1, h3, h4, h5 {
   font-family: 'Courgette', cursive;
   text-transform: none;
   color: #ff9f43;
+}
+
+h3#tag {
+  color: white;
 }
 
 h2#battle-date-header {
