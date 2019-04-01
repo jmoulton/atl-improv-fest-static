@@ -7,6 +7,7 @@ matches:
      - legend
      - murder-show
      - news-of-yesteryear
+   tix: "https://www.freshtix.com/events/legend-the-murder-show-news-of-yesteryear---battle-7-4-11-19"
 
  - date: '2019-04-11'
    time: "10:00pm"
