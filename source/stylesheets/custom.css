@@ -31,6 +31,10 @@ h2 {
   font-size: 45px;
 }
 
+strong {
+  color: #ff6b6b;
+}
+
 .blue {
   color: #feca57;
 }

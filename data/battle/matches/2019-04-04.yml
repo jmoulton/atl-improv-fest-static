@@ -7,14 +7,21 @@ matches:
      - ride-share
      - salty-bees
      - tipping-point
-   tix: "https://www.freshtix.com/events/ride-share-the-salty-bees-tipping-point---battle-1-4-4-19"
+   complete: true
+   results:
+     - tipping-point: 97
+     - salty-bees: 83
+     - ride-share: 60
 
- - date: '2019-04-04'
+ - date: '2019-4-04'
    time: "10:00pm"
    location: "Village Theatre"
-   complete: false
    teams:
      - blondies
      - triple-crown-no-more
      - refraction-distraction
-   tix: "https://www.freshtix.com/events/blondies-triple-crow-no-more-refraction-distraction---battle-2-4-4-19"
+   complete: true
+   results:
+     - triple-crown-no-more: 28
+     - blondies: 19
+     - refraction-distraction: 13
