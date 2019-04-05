@@ -1,0 +1,8 @@
+title: "Harriet"
+location: "Lexington, KY"
+showtimes:
+  - day: Saturday
+    time: 06:30pm
+    stage: Black Box
+
+order: 2

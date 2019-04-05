@@ -20,6 +20,7 @@ cast:
 
 showtimes:
   - day: Friday
-    time: 8:10pm
+    time: 07:45pm
     stage: Main Stage
 
+order: 2

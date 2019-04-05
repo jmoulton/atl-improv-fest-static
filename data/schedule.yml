@@ -2,17 +2,11 @@ Thursday:
   - stage: Main Stage
     slots:
       - time: 08:00pm
-        text: |
-          Crazy, Sexy, Cool
       - time: 09:00pm
-        text: |
-          Midy Zevlin _and_  
-          Improv Chattanooga
       - time: 10:00pm
         text: |
           Thursday Night Headliners
       - time: 11:00pm
-        text: "Seance"
   - stage: Black Box
     slots:
       - time: 07:30pm
@@ -37,15 +31,7 @@ Friday:
     slots:
       - time: 07:00pm
       - time: 07:45pm
-        text: |
-          West of Shake Rag  
-          The Wet Bandits  
-          Lowrider
-          Magical lying Hour  
-          I Am The Show
       - time: 10:00pm
-        text: |
-          Christina Gausas and Kevin Dorff
       - time: 11:00pm
         text: |
           _Search Engine_ hosts *ALL-STAR JAM*
@@ -55,13 +41,7 @@ Friday:
   - stage: Black Box
     slots:
       - time: 07:30pm
-        text: |
-          Bit Show
       - time: 08:45pm
-        text: |
-          Scene Pena Improv  
-          Scamp  
-          Camp  
       - time: 10:00pm
         text: |
           [Battle](/battle/#2018-04-26)
@@ -75,19 +55,10 @@ Saturday:
   - stage: Main Stage
     slots:
       - time: 06:00pm
-        text: |
-          Estessentials  
-          Let's Try This  
-          16 Oz of Chili  
-          Spoons  
-          Rufio  
       - time: 08:05pm
         text: |
           VT ALUMNI  
-          Improvised Vagina Monologues  
       - time: 09:00pm
-        text: |
-          Hill/Jones
       - time: 10:00pm
         text: |
           Saturday Night Headliners
@@ -99,10 +70,3 @@ Saturday:
         text: |
           Town Hall
       - time: 06:30pm
-        text: |
-          Meat & 3  
-          Harriet  
-          Amanda & Emily  
-          We, Robot  
-          Harpoon  
-          Definitely Not Murderers

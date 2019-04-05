@@ -1,0 +1,11 @@
+title: "Bit Show"
+location: "Atlanta, GA"
+bio: |
+  SHOWCASE: An extravaganza of bits! Stand-Up! Music! Improv! Sketch! All of these beautiful treasures will be on display at The Village Theatre for the world to behold & admire. Also, the bar will be open!
+
+showtimes:
+  - day: Friday
+    time: 07:30pm
+    stage: Black Box
+
+order: 1

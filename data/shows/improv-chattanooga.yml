@@ -33,6 +33,7 @@ cast:
 
 showtimes:
   - day: Thursday
-    time: 9:25pm
+    time: 09:00pm
     stage: Main Stage
 
+order: 2

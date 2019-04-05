@@ -1,0 +1,8 @@
+title: Seance
+location: "Atlanta, GA"
+showtimes:
+  - day: Thursday
+    time: 11:00pm
+    stage: Main Stage
+
+order: 1

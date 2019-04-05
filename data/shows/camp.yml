@@ -1,0 +1,8 @@
+title: "CAMP"
+location: "Seattle, WA"
+showtimes:
+  - day: Friday
+    time: 08:45pm
+    stage: Black Box
+
+order: 3

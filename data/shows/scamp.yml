@@ -1,0 +1,20 @@
+title: "Scamp"
+location: "Chicago, IL"
+bio: |
+  Scamp is a Chicago based team made of five veteran improvisers who perform regularly at the Annoyance Theatre. Like to watch people who obviously love each other go a little wild on stage? That's us. Our focus is on finding joy onstage - and we sure do. We're very into playing with controlled chaos.
+
+  Scamp hosts a weekly show at the Annoyance Theatre; otherwise they've performed around Chicago at Second City, iO, Bughouse Theater, the Crowd, and the Playground - as well as the Denver Improv Festival. They're weird and wild and ready to travel. 
+
+cast:
+  - Colin Stanley
+  - Lydia House
+  - Kevin McConnell
+  - Bryson Howard
+  - Cassidy Russell
+
+showtimes:
+  - day: Friday
+    time: 08:45pm
+    stage: Black Box
+
+order: 2

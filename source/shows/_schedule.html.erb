@@ -23,9 +23,11 @@
                   <div class="slot">
                     <%= markdown(slot['text']) if slot['text'] %>
                     <% shows = data.shows.select{|filename, show| show['showtimes'].any?{|showtime| (showtime["day"] == day[0].capitalize) && (showtime["time"] == slot['time']) && (showtime["stage"] == stage['stage'])}} %>
-                    <% shows.each do |filename, show| %>
+                    <% new_shows = {} %>
+                    <% shows.each { |filename, show| show['filename'] = filename; new_shows[show['order']] = show } %>
+                    <% new_shows.sort.each do |filename, show| %>
                       <p class="<% if show['highlight'] %>highlight<% end %><% if show['headliner'] %>headliner<% end %>">
-                        <a href="/shows/<%= filename %>/"><%= show["title"] %></a>
+                        <a href="/shows/<%= show['filename'] %>/"><%= show["title"] %></a>
                       </p>
                     <% end %>
 

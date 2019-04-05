@@ -1,0 +1,9 @@
+title: "Crazy, Sexy, Cool"
+location: "Atlanta, GA"
+bio: |
+showtimes:
+  - day: Thursday
+    time: 08:00pm
+    stage: Main Stage
+
+order: 1

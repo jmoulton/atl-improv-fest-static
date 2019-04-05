@@ -1,0 +1,9 @@
+title: "Let's try This"
+location: "Atlanta, GA"
+
+showtimes:
+  - day: Saturday
+    time: 06:00pm
+    stage: Main Stage
+
+order: 2

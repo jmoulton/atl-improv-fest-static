@@ -1,0 +1,10 @@
+title: "Hill/Jones"
+location: "Los Angeles, CA"
+bio: |
+headliner: true
+showtimes:
+  - day: Saturday
+    time: 09:00pm
+    stage: Main Stage
+
+order: 1

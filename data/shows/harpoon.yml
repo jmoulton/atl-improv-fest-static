@@ -1,0 +1,9 @@
+title: "Harpoon"
+location: "Chicago, IL/Houston, TX"
+bio: |
+showtimes:
+  - day: Saturday
+    time: 06:30pm
+    stage: Black Box
+
+order: 5
