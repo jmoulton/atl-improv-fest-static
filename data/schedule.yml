@@ -40,11 +40,12 @@ Friday:
         text: |
           West of Shake Rag  
           The Wet Bandits  
+          Lowrider
           Magical lying Hour  
           I Am The Show
       - time: 10:00pm
         text: |
-          Friday Night Headliner
+          Christina Gausas and Kevin Dorff
       - time: 11:00pm
         text: |
           _Search Engine_ hosts *ALL-STAR JAM*
@@ -86,12 +87,12 @@ Saturday:
           Improvised Vagina Monologues  
       - time: 09:00pm
         text: |
-          Dave Hill and Friends
+          Hill/Jones
       - time: 10:00pm
         text: |
           Saturday Night Headliners
       - time: 11:00pm
-        text: 2018 ATLIF Battle Finals
+        text: 2019 ATLIF Battle Finals
   - stage: Black Box
     slots:
       - time: 05:30pm
