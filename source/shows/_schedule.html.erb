@@ -18,7 +18,7 @@
               <% if stage['slots'] %>
                 <% stage["slots"].each do |slot| %>
                   <p>
-                    <strong><% if slot['time'].start_with? "0" %><%= slot['time'].slice(1, 6) %><% else %><%= slot['time'] %><% end %></strong>
+                    <strong class="schedule"><% if slot['time'].start_with? "0" %><%= slot['time'].slice(1, 6) %><% else %><%= slot['time'] %><% end %></strong>
                   </p>
                   <div class="slot">
                     <%= markdown(slot['text']) if slot['text'] %>
