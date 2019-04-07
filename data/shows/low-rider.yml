@@ -12,6 +12,8 @@ cast:
   - Greg Coleman
   - Devan Seaman
 
+image: "low-rider.png"
+
 showtimes:
   - day: Friday
     time: 07:45pm

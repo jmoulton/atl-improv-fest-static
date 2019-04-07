@@ -28,6 +28,7 @@
                     <% new_shows.sort.each do |filename, show| %>
                       <p class="<% if show['highlight'] %>highlight<% end %><% if show['headliner'] %>headliner<% end %>">
                         <a href="/shows/<%= show['filename'] %>/"><%= show["title"] %></a>
+                        <em class="small"><%= "(#{show['location']})" %></em>
                       </p>
                     <% end %>
 
