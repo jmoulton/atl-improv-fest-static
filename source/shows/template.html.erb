@@ -8,6 +8,7 @@ layout: "layout"
     <div class="col-lg-10 col-lg-offset-1">
       <p class="breadcrumbs"><a href="/shows/"><i class="fa fa-chevron-left" aria-hidden="true"></i> Shows</a></p>
       <br />
+      <br />
       <h2><%= show.title %></h2>
       <% if show.location %>
         <h3><%= show.location %></h3>
@@ -21,7 +22,7 @@ layout: "layout"
         <em><%= showtime.day %> <%= showtime.time %> | <%= showtime.stage %></em>
        </p>
        <br />
-        <p class="text-center">
+        <p class="text-left">
         <a href="https://www.freshtix.com/events/2019-aif-passes" class="btn btn-default"><i class='fa fa-id-badge' aria-hidden='true'></i> Passes</a>
         </p>
       <% end %>
