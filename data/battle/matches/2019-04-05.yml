@@ -2,19 +2,25 @@ matches:
  - date: '2019-04-05'
    time: "8:30pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - mggsy-barkley
      - pineapple-rollercoaster
      - privledged
-   tix: "https://www.freshtix.com/events/mggsy-barkley-pineapple-priviledged---battle-3-4-5-19"
+   results:
+     - privledged: 76
+     - pineapple-rollercoaster: 67
+     - mggsy-barkley: 44
 
  - date: '2019-04-05'
    time: "10:00pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - big-poppa
      - creatures
      - sandbox-players
-   tix: "https://www.freshtix.com/events/big-poppa-the-creatures-the-sandbox-players---battle-4-4-5-19"
+   results:
+     - sandbox-players: 108
+     - big-poppa: 96
+     - creatures: 60
