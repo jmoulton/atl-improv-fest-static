@@ -8,9 +8,9 @@ layout: "layout"
     <div class="col-lg-10 col-lg-offset-1">
       <p class="breadcrumbs"><a href="/shows/"><i class="fa fa-chevron-left" aria-hidden="true"></i> Shows</a></p>
       <br />
-      <h1><%= show.title %></h1>
+      <h2><%= show.title %></h2>
       <% if show.location %>
-        <h4><%= show.location %></h4>
+        <h3><%= show.location %></h3>
       <% end %>
       <% if show.image && show.image != "" %>
         <div class="pull-right col-xs-12 col-sm-6"><img class="img-responsive show-img" src="/images/shows/<%=show.image %>" title="<%= show.title %>" alt="<%= show.title %>"/></div>
