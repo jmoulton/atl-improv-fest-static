@@ -35,5 +35,6 @@ showtimes:
   - day: Thursday
     time: 09:00pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/midyzeyelin-improv-chattanooga-aif-4-25-19"
 
 order: 2

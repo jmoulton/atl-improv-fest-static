@@ -16,5 +16,6 @@ showtimes:
   - day: Friday
     time: 08:45pm
     stage: Black Box
+    tix: "https://www.freshtix.com/events/scene-pena-improv-scamp-camp-aif-4-26-19"
 
 order: 2

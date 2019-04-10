@@ -1,7 +1,8 @@
 title: "Itsa Bit Show!"
 location: "Atlanta, GA"
 bio: |
-  SHOWCASE: An extravaganza of bits! Stand-Up! Music! Improv! Sketch! All of these beautiful treasures will be on display at The Village Theatre for the world to behold & admire. Also, the bar will be open!
+  Stand Up. Sketch. Improv. 5 minutes at a time. 
+  Watch a bunch of comedians perform their favorite bits for you, and each other. Itsa Show for comedy fans who like being in on the joke. 
 
 image: "bitshow.jpeg"
 
@@ -9,6 +10,7 @@ showtimes:
   - day: Friday
     time: 07:30pm
     stage: Black Box
+    tix: "https://www.freshtix.com/events/bit-show-aif-4-26-19"
 
 cast:
   - John Mangan (Host)

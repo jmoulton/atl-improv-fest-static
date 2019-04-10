@@ -16,7 +16,8 @@ cast:
 
 showtimes:
   - day: "Saturday"
-    time: 06:30pm
+    time: 08:30pm
     stage: Black Box
+    tix: "https://www.freshtix.com/events/we-robot--harpoon-definitely-not-murderers-aif-4-27-19"
 
-order: 4
+order: 1

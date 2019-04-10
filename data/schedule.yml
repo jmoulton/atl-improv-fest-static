@@ -6,6 +6,7 @@ Thursday:
       - time: 10:00pm
         text: |
           Thursday Night Headliners
+        tix: "https://www.freshtix.com/events/thursday-night-headliners-aif-4-25-19"
       - time: 11:00pm
   - stage: Black Box
     slots:
@@ -13,18 +14,22 @@ Thursday:
         text: |
           [Battle](/battle/#2018-04-25)
           _Battle Quarter Final 1_
+        tix: "https://www.freshtix.com/events/aif-battle-quarter-final-1"
       - time: 08:45pm
         text: |
           [Battle](/battle#2018-04-25)
           _Battle Quarter Final 2_
+        tix: "https://www.freshtix.com/events/battle-quarter-final-2-aif-4-25-19"
       - time: 10:00pm
         text: |
           [Battle](/battle#2018-04-25)
           _Battle Quarter Final 3_
+        tix: "https://www.freshtix.com/events/battle-quarter-final-3-aif-4-25-19"
       - time: 11:15pm
         text: |
           [Battle](/battle#2018-04-25)
           _Battle Quarter Final 4_
+        tix: "https://www.freshtix.com/events/battle-quarter-final-4-aif-4-25-19"
 
 Friday:
   - stage: Main Stage
@@ -35,6 +40,7 @@ Friday:
       - time: 11:00pm
         text: |
           _Search Engine_ hosts *ALL-STAR JAM*
+        tix: "https://www.freshtix.com/events/search-engine-hosted-all-star-jam-aif-4-26-19"
       - time: 12:00am
         text: |
           KARAOKE WITH ALLEN
@@ -46,10 +52,12 @@ Friday:
         text: |
           [Battle](/battle/#2018-04-26)
           _Battle Semifinal 1_
+        tix: "https://www.freshtix.com/events/aif-battle-semi-final-1-4-25-19"
       - time: 11:15pm
         text: |
           [Battle](/battle/#2018-04-26)
           _Battle Semifinal 2_
+        tix: "https://www.freshtix.com/events/aif-battle-semi-final-2-4-25-19"
 
 Saturday:
   - stage: Main Stage
@@ -60,13 +68,13 @@ Saturday:
           VT ALUMNI  
       - time: 09:00pm
       - time: 10:00pm
-        text: |
-          Saturday Night Headliners
       - time: 11:00pm
         text: 2019 ATLIF Battle Finals
+        tix: "https://www.freshtix.com/events/aif-tournament-championship-4-27-19"
   - stage: Black Box
     slots:
       - time: 05:30pm
         text: |
           Town Hall
       - time: 06:30pm
+      - time: 08:30pm

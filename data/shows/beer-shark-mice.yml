@@ -1,0 +1,29 @@
+title: "Beer Shark Mice"
+location: "Los Angeles, CA"
+bio: |
+  BeerSharkMice is a long form improvisational show that originated in Los Angeles. A forty to forty-five minute long show based on a suggestion of a location. The location is the starting point for an array of scenes where the players tag in to spin the scene in a new direction or wildly out of control to sometimes end up full circle where it all began. 
+
+  A well respected group of Chicago men that learned the art of Improvising from iO, The Second City and Annoyance Theater.
+
+  Comedy Festivals:
+
+  * Chicago Improv Festival
+  * The Bentwood iO Improv Festival 
+  * San Francisco Sketch Fest
+  * The Venetian Las Vegas
+  * The Second City 50th Anniversary Show
+  * The Los Angeles Improv Festival
+  * The Portland Improv Festival
+  * Austin Improv Fest
+
+  The name BeerSharkMice came from the mind of Neil Flynn. It doesn’t mean anything, he jokingly said it, and we said that’s perfect!
+
+showtimes:
+  - day: Saturday
+    time: 10:00pm
+    stage: Main Stage
+order: 1
+
+headliner: true
+
+

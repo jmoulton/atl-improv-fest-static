@@ -13,5 +13,6 @@ showtimes:
   - day: Saturday
     time: 06:00pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/estessentials-lets-try-this-16oz-of-chili-spoon-rufio-aif"
 
 order: 3

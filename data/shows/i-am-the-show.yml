@@ -16,5 +16,6 @@ showtimes:
   - day: Friday
     time: 07:45pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/west-of-shake-rag-the-wet-bandits-low-rider-magical-lying-hour-i-am-the-show"
 
 order: 5

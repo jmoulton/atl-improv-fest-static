@@ -1,7 +1,7 @@
 title: "Hill/Jones"
 location: "Los Angeles, CA"
 bio: |
-headliner: true
+highlight: true
 showtimes:
   - day: Saturday
     time: 09:00pm

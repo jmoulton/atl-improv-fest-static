@@ -32,7 +32,8 @@
                       </p>
                     <% end %>
 
-                    <% showtime = shows.to_a[0].to_a[1]['showtimes'].select{|st| (st["day"] == day[0].capitalize) && (st["time"] == slot['time']) && (st["stage"] == stage['stage'])}.first rescue nil %>
+                    <% last = new_shows.keys.sort.last %>
+                    <% showtime = new_shows.any? ? new_shows[last]['showtimes'].first : nil %>
                     <% if (showtime && showtime['tix']) || slot['tix'] %>
                       <% if showtime %>
                         <% tickets = showtime['tix'] %>

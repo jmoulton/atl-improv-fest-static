@@ -6,5 +6,6 @@ showtimes:
   - day: Saturday
     time: 08:05pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/vt-alumni-improvised-vagina-monologues-aif-3-27-19"
 
 order: 1

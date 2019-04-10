@@ -6,5 +6,6 @@ showtimes:
   - day: Friday
     time: 10:00pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/friday-night-headliner-4-26-19"
 
 order: 1
