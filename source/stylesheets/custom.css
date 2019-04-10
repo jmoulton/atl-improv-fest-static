@@ -90,7 +90,7 @@ a:hover {
 }
 
 a {
-  color: white;
+  color: #00d2d3;
 }
 
 .logo {
@@ -247,7 +247,8 @@ footer {
 }
 
 #shows .highlight {
-  background: #10ac84;
+  background: #222f3e;
+  padding-bottom: 15px;
 }
 
 .slot a {

@@ -1,4 +1,4 @@
-title: "Hill/Jones"
+title: "Dave Hill and Friends"
 location: "Los Angeles, CA"
 bio: |
 highlight: true
@@ -6,5 +6,6 @@ showtimes:
   - day: Saturday
     time: 09:00pm
     stage: Main Stage
+    tix: "https://www.freshtix.com/events/dave-hill-and-friends-aif-4-27-19"
 
 order: 1
