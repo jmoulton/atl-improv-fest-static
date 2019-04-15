@@ -3,7 +3,17 @@ matches:
    time: "8:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - big-poppa
+     - tipping-point
+     - cascade
+   tix: "https://www.freshtix.com/events/battle-match-13-4-18-19"
  - date: '2019-04-18'
    time: "10:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - triple-crown-no-more
+     - too-many-cooks
+     - nofilter
+   tix: "https://www.freshtix.com/events/battle-match-14-4-18-19"

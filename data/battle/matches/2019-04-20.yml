@@ -3,7 +3,19 @@ matches:
    time: "8:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - different-but-same
+     - scramble-shit
+     - dear-abby
+   tix: "https://www.freshtix.com/events/battle-match-17-4-20-19"
+
  - date: '2019-04-20'
    time: "09:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - maggies
+     - murder-show
+     - tapestry
+   tix: "https://www.freshtix.com/events/battle-match-18-4-20-19"
+

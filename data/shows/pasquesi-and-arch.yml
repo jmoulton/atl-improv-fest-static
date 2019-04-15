@@ -1,0 +1,18 @@
+title: "Pasquesi & Arch"
+location: "Atlanta, GA/Los Angeles, CA"
+bio: |
+  David Pasquesi is an American comedian, actor and voice over actor living in Chicago. His screen credits include Groundhog Day, Strangers with Candy, Curb Your Enthusiasm, Return to Me, The Ice Harvest, and Veep.
+
+  Pasquesi was born in Chicago and starred in the short film Regrets that premiered An Event Apart, and co-starred in I Want Someone to Eat Cheese With. He wrote for Exit 57and Strangers with Candy, co-wrote and appeared in the Spike TV series Factory, and co-wrote and co-starred in Cop Show. In 2009, he was in the cast of Angels & Demons, where he played the character Claudio Vincenzi. He co-created and co-wrote the new show Merkin Penal.
+  Pasquesi has performed at The Second City, iO Theater, Improv Institute, and Annoyance Theatre, and studied under Del Close in the early 80s and became part of the first iO Harold team "Baron's Barracudas". He appeared in four mainstage revues at Second City as well as in plays at the Steppenwolf Theatre and the Goodman Theatre. Since 2002, he has been performing with T. J. Jagodowski in "TJ and Dave".
+  The 2009 South by Southwest Film festival included the documentary Trust Us, This is All Made Up directed by Alex Karpovsky, which chronicles a "T.J. and Dave" performance. In 2009, he played a supporting role in the Harold Ramis film Year One as the Prime Minister of Sodom. Pasquesi was a cast member in the Chicago premiere of Yasmina Reza's God of Carnage at the Goodman Theatre.
+
+showtimes:
+  - day: Thursday
+    time: 10:00pm
+    stage: Main Stage
+    tix: "https://www.freshtix.com/events/thursday-night-headliners-aif-4-25-19"
+
+order: 1
+headliner: true
+

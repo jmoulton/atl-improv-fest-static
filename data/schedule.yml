@@ -5,8 +5,6 @@ Thursday:
       - time: 09:00pm
       - time: 10:00pm
         text: |
-          Thursday Night Headliners
-        tix: "https://www.freshtix.com/events/thursday-night-headliners-aif-4-25-19"
       - time: 11:00pm
   - stage: Black Box
     slots:

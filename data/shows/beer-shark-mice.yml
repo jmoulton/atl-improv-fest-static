@@ -24,6 +24,7 @@ showtimes:
     stage: Main Stage
     tix: "https://www.freshtix.com/events/saturday-night-headliner-aif-4-27-19"
 order: 1
+image: "bsm.jpg"
 
 headliner: true
 

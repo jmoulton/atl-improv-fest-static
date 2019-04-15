@@ -3,7 +3,17 @@ matches:
    time: "8:30pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - privledged
+     - jam-and-carl
+     - salty-bees
+   tix: "https://www.freshtix.com/events/battle-match-15-4-19-19"
  - date: '2019-04-19'
    time: "10:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - goom
+     - legend
+     - sandbox-players
+   tix: "https://www.freshtix.com/events/battle-match-16-4-19-19"
