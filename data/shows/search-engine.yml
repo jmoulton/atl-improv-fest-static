@@ -1,0 +1,12 @@
+title: 'Search Engine hosts ALL-STAR Jam'
+location: 'Atlanta, GA/Chicago, IL'
+bio: |
+highlight: true
+showtimes:
+  - day: Friday
+    time: 11:00pm
+    stage: Main Stage
+    tix: "https://www.freshtix.com/events/search-engine-hosted-all-star-jam-aif-4-26-19"
+
+order: 1
+image: 'search.jpg'
