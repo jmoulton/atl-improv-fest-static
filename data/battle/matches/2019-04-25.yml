@@ -2,36 +2,49 @@ matches:
  - date: '2019-04-19'
    time: "7:30pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - sandbox-players
      - dear-abby
      - privledged
-   tix: "https://www.freshtix.com/events/aif-battle-quarter-final-1"
+   results:
+     - sandbox-players: 121
+     - dear-abby: 121
+     - privledged: 82
  - date: '2019-04-19'
    time: "8:45pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - triple-crown-no-more
      - murder-show
      - goom
-   tix: "https://www.freshtix.com/events/battle-quarter-final-2-aif-4-25-19"
+   results:
+     - triple-crown-no-more: 102
+     - murder-show: 92
+     - goom: 82
  - date: '2019-04-19'
    time: "10:00pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - salty-bees
      - big-poppa
      - scramble-shit
-   tix: "https://www.freshtix.com/events/battle-quarter-final-3-aif-4-25-19"
+   results:
+     - big-poppa: 62
+     - salty-bees: 49
+     - scramble-shit: 45
+
  - date: '2019-04-19'
    time: "11:15pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - tipping-point
      - too-many-cooks
      - maggies
-   tix: "https://www.freshtix.com/events/battle-quarter-final-4-aif-4-25-19"
+   results:
+     - tipping-point: 164
+     - maggies: 126
+     - too-many-cooks: 112
