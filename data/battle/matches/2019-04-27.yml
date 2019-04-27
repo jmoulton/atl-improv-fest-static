@@ -3,3 +3,8 @@ matches:
    time: "11:00pm"
    location: "Village Theatre"
    complete: false
+   teams:
+     - big-poppa
+     - tipping-point
+     - sandbox-players
+   tix: "https://www.freshtix.com/events/aif-tournament-championship-4-27-19"

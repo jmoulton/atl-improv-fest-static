@@ -64,7 +64,10 @@ Saturday:
       - time: 09:00pm
       - time: 10:00pm
       - time: 11:00pm
-        text: 2019 ATLIF Battle Finals
+        text: |
+          # Battle Finals
+             
+          **Big Poppa** _vs._ **Tipping Point** _vs._ **The Sandbox Players**
         tix: "https://www.freshtix.com/events/aif-tournament-championship-4-27-19"
   - stage: Black Box
     slots:
