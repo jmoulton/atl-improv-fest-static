@@ -2,18 +2,24 @@ matches:
  - date: '2019-04-04'
    time: "10:00pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - tipping-point
      - triple-crown-no-more
      - sandbox-players
-   tix: "https://www.freshtix.com/events/aif-battle-semi-final-1-4-25-19"
+   results:
+     - tipping-point: 122
+     - sandbox-players: 100
+     - triple-crown-no-more: 72
  - date: '2019-04-04'
    time: "11:15pm"
    location: "Village Theatre"
-   complete: false
+   complete: true
    teams:
      - big-poppa
      - maggies
      - dear-abby
-   tix: "https://www.freshtix.com/events/aif-battle-semi-final-2-4-25-19"
+   results:
+     - big-poppa: 100
+     - dear-abby: 92
+     - maggies: 90

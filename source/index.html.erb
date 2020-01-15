@@ -2,28 +2,20 @@
 layout: "home"
 ---
 <section class="intro" class="container content-section">
-  <h1>2018 Atlanta Improv Festival</h1>
+  <h1>2020 Atlanta Improv Festival</h1>
 </section>
 <section id="temp-home" class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 text-center">
-      <h2>2019 <span class="blue">Atlanta</span> Improv Festival</h2>
-      <h1>April 25-27, 2019</h1>
+      <h2>2020 <span class="blue">Atlanta</span> Improv Festival</h2>
+      <h1>April 23-25, 2020</h1>
+      <br />
+      <h4>Sponsorship information can be found here:<h4><p><%=link_to "Sponsorship AIF2020", "/sponsors/sponsorship.pdf" %> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></p>
+          <h3>To apply to the 2020 festival, click the link below</h3>
+      <br />
+      <h1><span class="blue"><%=link_to "Apply here!", "http://www.theimprovnetwork.org/festival-event-profile/?eventkey=628" %></span></h1>
+      <br />
+      <br />
     </div>
   </div>
 </section>
-<%= partial "shows/schedule" %>
-<%= partial "beerbus/description" %>
-<section id="tix" class="content-section">
-  <div class="container">
-    <div class="col-lg-8 col-lg-offset-2">
-      <%= partial "tickets/tix" %>
-      <%#<p style="font-size: 100%"><a href="tickets/index.html">Ticket descriptions and details</a></p>%>
-    </div>
-  </div>
-</section>
-<%= partial "workshops/schedule" %>
-<%= partial "battle/description" %>
-<%= partial "faqs/faqs" %>
-<%= partial "location/location" %>
-<%= partial "sponsors/sponsors" %>
