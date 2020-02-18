@@ -14,7 +14,7 @@
 }
 
 body {
-  color: #c8d6e5;
+  color: black;
   /*background: #4854603E2;*/
   background: #d2dae2;
 }
@@ -90,7 +90,7 @@ a:hover {
 }
 
 a {
-  color: #485460;
+  color: #f53b57;
 }
 
 .logo {
